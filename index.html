@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+<title>מכרז קטטרים אבחנתיים וטיפוליים | שיבא תל השומר</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --primary:#2B2D7F;--secondary:#3A4CAA;--accent:#42C6B5;--sheba-pink:#E84292;
+  --success:#10b981;--warning:#f59e0b;--danger:#ef4444;
+  --light:#f8fafc;--gray:#64748b;--border:#e2e8f0;
+  --medtechnica:#2563eb;--gad:#7c3aed;--duke:#ea580c;--medtronic:#0891b2;--getter:#16a34a;
+}
+body{font-family:'Segoe UI',-apple-system,sans-serif;background:#f1f5f9;color:#1e293b;min-height:100vh}
+
+.header{background:linear-gradient(135deg,#1e1f6b 0%,#2B2D7F 50%,#3A4CAA 100%);color:white;padding:0 1.5rem;position:sticky;top:0;z-index:100;box-shadow:0 4px 24px rgba(43,45,127,0.45)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;max-width:1600px;margin:0 auto;height:76px;gap:1rem}
+.logo{display:flex;align-items:center;gap:0.75rem;flex-shrink:0}
+.logo-icon{width:44px;height:44px;background:rgba(255,255,255,0.2);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.4rem}
+.logo-text h1{font-size:0.95rem;font-weight:700;line-height:1.2}
+.logo-text p{font-size:0.7rem;opacity:0.75}
+.nav{display:flex;gap:0.3rem;flex-wrap:wrap}
+.nav-btn{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:white;padding:0.38rem 0.8rem;border-radius:7px;cursor:pointer;font-size:0.78rem;transition:all 0.2s;white-space:nowrap;font-family:inherit}
+.nav-btn:hover{background:rgba(255,255,255,0.22)}
+.nav-btn.active{background:white;color:#2B2D7F;font-weight:700}
+
+.main{max-width:1600px;margin:0 auto;padding:1.25rem 1.5rem}
+.page{display:none}.page.active{display:block;animation:fadeIn 0.25s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:0.85rem;margin-bottom:1.25rem}
+.stat-card{background:white;border-radius:12px;padding:1rem;box-shadow:0 1px 4px rgba(0,0,0,0.08);display:flex;align-items:center;gap:0.8rem;border-right:4px solid}
+.stat-icon{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.stat-info h3{font-size:1.5rem;font-weight:700;line-height:1}
+.stat-info p{font-size:0.73rem;color:var(--gray);margin-top:0.2rem}
+
+.card{background:white;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,0.08);overflow:hidden;margin-bottom:1rem}
+.card-header{padding:0.85rem 1.1rem;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;background:#f8fafc}
+.card-header h2{font-size:0.92rem;font-weight:700;color:var(--primary)}
+.card-body{padding:1.1rem}
+
+.filters-bar{display:flex;gap:0.55rem;align-items:center;flex-wrap:wrap;padding:0.8rem 1rem;background:white;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,0.08);margin-bottom:1rem}
+.search-box{flex:1;min-width:175px;position:relative}
+.search-box input{width:100%;padding:0.5rem 0.9rem 0.5rem 2.1rem;border:1.5px solid var(--border);border-radius:8px;font-size:0.83rem;outline:none;transition:border-color 0.2s;direction:rtl;font-family:inherit}
+.search-box input:focus{border-color:var(--secondary)}
+.search-icon{position:absolute;left:0.55rem;top:50%;transform:translateY(-50%);color:var(--gray);font-size:0.88rem}
+.filter-group{display:flex;gap:0.28rem;align-items:center;flex-wrap:wrap}
+.filter-label{font-size:0.72rem;color:var(--gray);font-weight:600;white-space:nowrap}
+.filter-btn{padding:0.3rem 0.62rem;border:1.5px solid var(--border);border-radius:6px;background:white;font-size:0.76rem;cursor:pointer;transition:all 0.2s;color:var(--gray);font-weight:500;font-family:inherit}
+.filter-btn:hover{border-color:var(--secondary);color:var(--secondary)}
+.filter-btn.active{background:var(--primary);border-color:var(--primary);color:white}
+
+.table-wrapper{overflow-x:auto;background:white;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
+table{width:100%;border-collapse:collapse;font-size:0.81rem}
+thead th{background:linear-gradient(135deg,#1e1f6b,#2B2D7F);color:white;padding:0.78rem 0.85rem;text-align:right;font-weight:600;white-space:nowrap}
+thead th.center{text-align:center}
+tbody tr{border-bottom:1px solid #f1f5f9;transition:background 0.12s;cursor:pointer}
+tbody tr:hover{background:#f0f9ff}
+tbody tr.g4f{border-right:3px solid #6366f1}
+tbody tr.g5f{border-right:3px solid #0891b2}
+tbody tr.g6f{border-right:3px solid #f59e0b}
+tbody tr.g7f{border-right:3px solid #ef4444}
+tbody tr.g8f{border-right:3px solid #8b5cf6}
+td{padding:0.62rem 0.85rem;vertical-align:middle}
+td.center{text-align:center}
+
+.fb{display:inline-flex;align-items:center;justify-content:center;min-width:33px;padding:0.18rem 0.32rem;border-radius:6px;font-size:0.7rem;font-weight:700}
+.f4{background:#ede9fe;color:#6d28d9}.f5{background:#e0f2fe;color:#0369a1}.f6{background:#fef9c3;color:#854d0e}.f7{background:#fee2e2;color:#991b1b}.f8{background:#f3e8ff;color:#7e22ce}
+.tbadge{display:inline-block;padding:0.18rem 0.5rem;background:#f1f5f9;border-radius:6px;font-weight:700;font-size:0.81rem;color:#334155}
+
+.pcell{text-align:center;min-width:115px}
+.ptag{display:inline-block;padding:0.2rem 0.48rem;border-radius:5px;font-weight:700;font-size:0.77rem;line-height:1.3}
+.pbest{background:#d1fae5;color:#065f46}.pgood{background:#dbeafe;color:#1e40af}.pmid{background:#fef3c7;color:#92400e}.phigh{background:#fee2e2;color:#991b1b}
+.pref{font-size:0.66rem;color:#94a3b8;margin-top:0.12rem;font-family:monospace;display:block}
+.pname{font-size:0.66rem;color:#94a3b8;margin-top:0.08rem;display:block;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nosup{color:#d1d5db;font-size:0.95rem;text-align:center}
+
+.mmcell{display:flex;flex-direction:column;gap:0.18rem;font-size:0.73rem}
+.mmrow{display:flex;align-items:center;gap:0.28rem}
+.mmlbl{color:var(--gray);font-size:0.66rem;width:26px}
+.sbar{width:48px;height:5px;background:#e2e8f0;border-radius:3px;overflow:hidden;display:inline-block}
+.sfill{height:100%;border-radius:3px}
+.snum{font-weight:600;color:#334155;font-size:0.73rem}
+
+.supplier-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:0.85rem;margin-bottom:1.25rem}
+.supplier-card{background:white;border-radius:12px;padding:1rem;box-shadow:0 1px 4px rgba(0,0,0,0.08);border-top:4px solid;display:flex;align-items:flex-start;gap:0.8rem}
+.slogo{width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:0.58rem;font-weight:800;color:white;flex-shrink:0;text-align:center;line-height:1.3}
+.sinfo h3{font-size:0.88rem;font-weight:700}
+.sinfo .sbrand{font-size:0.72rem;color:var(--gray);margin-bottom:0.4rem}
+.pchips{display:flex;gap:0.32rem;flex-wrap:wrap}
+.pchip{font-size:0.67rem;padding:0.16rem 0.42rem;border-radius:4px;border:1px solid;font-weight:600}
+.prod-sec{margin-top:0.55rem;border-top:1px solid #f1f5f9;padding-top:0.45rem}
+.prod-lbl{font-size:0.59rem;font-weight:800;color:#94a3b8;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.3rem;display:block}
+.prod-rows{display:flex;flex-direction:column;gap:0.2rem}
+.prod-row{display:flex;align-items:center;gap:0.5rem;direction:ltr}
+.prod-num{font-family:'Consolas',monospace;font-size:0.7rem;font-weight:700;padding:0.13rem 0.5rem;border-radius:5px;flex-shrink:0;letter-spacing:0.02em;border:1px solid transparent}
+.prod-nm{font-size:0.7rem;color:#475569;font-weight:500}
+
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:200;display:none;align-items:center;justify-content:center;padding:1rem}
+.modal-overlay.open{display:flex}
+.modal{background:white;border-radius:14px;padding:1.65rem;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.3);position:relative;max-height:88vh;overflow-y:auto}
+.modal-close{position:absolute;top:0.85rem;left:0.85rem;background:#f1f5f9;border:none;width:29px;height:29px;border-radius:7px;cursor:pointer;font-size:0.95rem;display:flex;align-items:center;justify-content:center;font-family:inherit}
+.modal h2{font-size:1.15rem;font-weight:700;margin-bottom:0.28rem;color:#2B2D7F;direction:ltr;text-align:right}
+.modal .msub{color:var(--gray);font-size:0.8rem;margin-bottom:1rem;border-bottom:1px solid var(--border);padding-bottom:0.8rem}
+.msec{margin-bottom:0.85rem}
+.msec h4{font-size:0.7rem;font-weight:700;color:var(--gray);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:0.38rem}
+.msup-row{display:flex;align-items:center;justify-content:space-between;padding:0.42rem 0.6rem;border-radius:7px;border:1px solid var(--border);margin-bottom:0.3rem}
+.msup-left{display:flex;align-items:center;gap:0.45rem}
+.msup-name{font-weight:700;font-size:0.8rem}
+.msup-product{font-size:0.72rem;color:var(--gray)}
+.msup-ref{font-family:monospace;font-size:0.68rem;background:#f8fafc;padding:0.1rem 0.3rem;border-radius:4px;color:#64748b}
+
+.inv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:0.82rem}
+.inv-card{background:white;border-radius:10px;padding:0.9rem;box-shadow:0 1px 4px rgba(0,0,0,0.08);border-right:3px solid;cursor:pointer;transition:box-shadow 0.2s}
+.inv-card:hover{box-shadow:0 4px 14px rgba(0,0,0,0.13)}
+.inv-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:0.45rem}
+.inv-type{font-size:0.93rem;font-weight:700;color:#1e293b}
+.inv-stocks{display:flex;gap:0.35rem}
+.inv-chip{font-size:0.66rem;padding:0.14rem 0.38rem;border-radius:4px;font-weight:700}
+.inv-min{background:#fff7ed;color:#c2410c}.inv-max{background:#ecfdf5;color:#065f46}
+.inv-lengths{display:flex;gap:0.22rem;flex-wrap:wrap;margin-bottom:0.45rem}
+.inv-len{font-size:0.66rem;padding:0.1rem 0.32rem;background:#f1f5f9;border-radius:4px;color:var(--gray)}
+.inv-sups{display:flex;flex-direction:column;gap:0.18rem;border-top:1px solid #f8fafc;padding-top:0.42rem}
+.inv-sup-row{display:flex;justify-content:space-between;align-items:center;font-size:0.7rem}
+.inv-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.inv-ref{font-family:monospace;font-size:0.65rem;background:#f8fafc;padding:0.07rem 0.26rem;border-radius:3px;color:#64748b}
+
+.sec-title{display:flex;align-items:center;gap:0.6rem;margin-bottom:0.9rem}
+.sec-title h2{font-size:1.1rem;font-weight:700;color:var(--primary)}
+.sec-badge{background:var(--secondary);color:white;padding:0.17rem 0.52rem;border-radius:6px;font-size:0.72rem;font-weight:700}
+
+.info-panel{background:linear-gradient(135deg,#1e1f6b,#2B2D7F,#3A4CAA);color:white;border-radius:12px;padding:1rem 1.25rem;margin-bottom:1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.65rem}
+.info-panel h3{font-size:0.82rem;opacity:0.85;margin-bottom:0.28rem}
+.legend-items{display:flex;gap:0.65rem;flex-wrap:wrap}
+.legend-item{display:flex;align-items:center;gap:0.28rem;font-size:0.73rem}
+.ldot{width:9px;height:9px;border-radius:50%}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media(max-width:768px){
+  /* Header: stack logo + nav vertically */
+  .header{padding:0 0.75rem}
+  .header-inner{
+    flex-direction:column;height:auto;
+    padding:0.6rem 0;gap:0.5rem;align-items:flex-start
+  }
+  .logo svg{height:44px}
+  .logo-text h1{font-size:0.82rem}
+  .logo-text p{font-size:0.65rem}
+
+  /* Nav: scrollable horizontal strip */
+  .nav{
+    width:100%;overflow-x:auto;flex-wrap:nowrap;
+    padding-bottom:0.2rem;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none
+  }
+  .nav::-webkit-scrollbar{display:none}
+  .nav-btn{padding:0.32rem 0.65rem;font-size:0.72rem;white-space:nowrap;flex-shrink:0}
+
+  /* Main content */
+  .main{padding:0.7rem}
+  .stats-grid{grid-template-columns:repeat(2,1fr);gap:0.55rem}
+  .stat-info h3{font-size:1.2rem}
+  .stat-info p{font-size:0.65rem}
+
+  /* Supplier cards: single column */
+  .supplier-grid{grid-template-columns:1fr}
+  .supplier-card{flex-direction:column;gap:0.5rem}
+  .slogo{width:100%;height:36px;border-radius:7px;font-size:0.55rem}
+  .pchips{gap:0.22rem}
+  .pchip{font-size:0.62rem}
+
+  /* Tables: horizontal scroll container */
+  .table-wrapper{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px}
+  table{font-size:0.72rem;min-width:680px}
+  td,thead th{padding:0.4rem 0.55rem}
+  .pcell{min-width:90px}
+  .ptag{font-size:0.7rem;padding:0.15rem 0.35rem}
+  .pref{font-size:0.58rem}
+  .pname{max-width:85px;font-size:0.58rem}
+
+  /* Filters bar: scroll horizontally */
+  .filters-bar{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;padding:0.6rem 0.75rem}
+  .filter-group{flex-shrink:0;flex-wrap:nowrap}
+  .search-box{min-width:140px}
+
+  /* MINMAX inventory grid: single column */
+  .inv-grid{grid-template-columns:1fr}
+
+  /* Info panel */
+  .info-panel{flex-direction:column;gap:0.45rem}
+  .legend-items{gap:0.4rem}
+
+  /* Section titles */
+  .sec-title h2{font-size:0.92rem}
+
+  /* Modal */
+  .modal{padding:1.1rem;max-width:100%}
+  .modal h2{font-size:1rem}
+
+  /* Footer */
+  footer{padding:0.85rem;font-size:0.68rem}
+  footer > div > div{flex-direction:column;text-align:center;gap:0.45rem}
+}
+
+@media(max-width:480px){
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .header-inner{gap:0.35rem}
+  .logo-text h1{font-size:0.74rem}
+  table{min-width:580px;font-size:0.66rem}
+  .supplier-card{padding:0.75rem}
+  .nav-btn{font-size:0.66rem;padding:0.28rem 0.5rem}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <!-- Sheba Medical Center Logo -->
+      <svg viewBox="-8 -10 320 116" xmlns="http://www.w3.org/2000/svg" style="height:62px;flex-shrink:0" aria-label="Sheba Medical Center">
+        <!-- Upper arc (teal/green) — top half of S, C-shape opening right -->
+        <path d="M 66,30 C 70,14 56,4 38,4 C 20,4 6,15 6,30 C 6,44 17,52 32,52"
+              stroke="#42C6B5" stroke-width="12" fill="none" stroke-linecap="round"/>
+        <!-- Lower arc (pink/magenta) — bottom half of S, C-shape opening left -->
+        <path d="M 10,50 C 4,64 10,82 30,84 C 50,86 66,74 66,59"
+              stroke="#E84292" stroke-width="12" fill="none" stroke-linecap="round"/>
+        <!-- SHEBA -->
+        <text x="84" y="40" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="800" fill="white" letter-spacing="2">SHEBA</text>
+        <text x="84" y="59" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="400" fill="rgba(255,255,255,0.83)">Tel HaShomer</text>
+        <text x="84" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="400" fill="rgba(255,255,255,0.83)">City of Health</text>
+      </svg>
+      <div style="width:1px;height:36px;background:rgba(255,255,255,0.25);margin:0 0.85rem;flex-shrink:0"></div>
+      <div class="logo-text">
+        <h1>מכרז קטטרים אבחנתיים וטיפוליים</h1>
+        <p>Interventional Cardiology · Catheter Tender Portal</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <button class="nav-btn active" onclick="navigate('dashboard',this)">🏠 לוח מחוונים</button>
+      <button class="nav-btn" onclick="navigate('diagnostic',this)">🔵 Diagnostic</button>
+      <button class="nav-btn" onclick="navigate('guiding',this)">🟠 Guiding</button>
+      <button class="nav-btn" onclick="navigate('compare',this)">⚖️ השוואת מחירים</button>
+      <button class="nav-btn" onclick="navigate('inventory',this)">📦 מלאי MINMAX</button>
+      <button class="nav-btn" onclick="navigate('catalog',this)">🏢 קטלוג ספקים</button>
+    </nav>
+  </div>
+</header>
+
+<main class="main">
+
+<!-- DASHBOARD -->
+<div class="page active" id="page-dashboard">
+  <div class="stats-grid">
+    <div class="stat-card" style="border-color:#6366f1"><div class="stat-icon" style="background:#ede9fe">📋</div><div class="stat-info"><h3 id="stat-total">0</h3><p>פריטים במאגר הכולל</p></div></div>
+    <div class="stat-card" style="border-color:#0891b2"><div class="stat-icon" style="background:#e0f2fe">🔵</div><div class="stat-info"><h3 id="stat-diag">0</h3><p>קטטרים אבחנתיים</p></div></div>
+    <div class="stat-card" style="border-color:#f59e0b"><div class="stat-icon" style="background:#fef9c3">🟠</div><div class="stat-info"><h3 id="stat-guid">0</h3><p>קטטרים מנחים (Guiding)</p></div></div>
+    <div class="stat-card" style="border-color:#10b981"><div class="stat-icon" style="background:#d1fae5">🏢</div><div class="stat-info"><h3>5</h3><p>ספקים פעילים</p></div></div>
+    <div class="stat-card" style="border-color:#ef4444"><div class="stat-icon" style="background:#fee2e2">💰</div><div class="stat-info"><h3>$9–107</h3><p>טווח מחיר ליחידה</p></div></div>
+    <div class="stat-card" style="border-color:#8b5cf6"><div class="stat-icon" style="background:#f3e8ff">📐</div><div class="stat-info"><h3>4F–8F</h3><p>גדלי French</p></div></div>
+  </div>
+
+  <div class="supplier-grid">
+    <div class="supplier-card" style="border-color:#2563eb">
+      <div class="slogo" style="background:#2563eb">MEDTECHNICA</div>
+      <div class="sinfo"><h3>MEDTECHNICA</h3><div class="sbrand">Boston Scientific — IMPULSE / MACH 1 / IMAGER</div>
+      <div class="pchips">
+        <span class="pchip" style="background:#eff6ff;color:#1d4ed8;border-color:#bfdbfe">IMPULSE: $9/יח׳</span>
+        <span class="pchip" style="background:#eff6ff;color:#1d4ed8;border-color:#bfdbfe">MACH 1 Guiding: $49/יח׳</span>
+        <span class="pchip" style="background:#eff6ff;color:#1d4ed8;border-color:#bfdbfe">IMAGER: $29.6/יח׳</span>
+      </div>
+      <div class="prod-sec">
+        <span class="prod-lbl">מקטי PROD — מזור</span>
+        <div class="prod-rows">
+          <div class="prod-row"><span class="prod-num" style="background:#dbeafe;color:#1e40af;border-color:#bfdbfe">10000530</span><span class="prod-nm">IMPULSE — Diagnostic</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#dbeafe;color:#1e40af;border-color:#bfdbfe">10000543</span><span class="prod-nm">MACH 1 — Guiding</span></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="supplier-card" style="border-color:#7c3aed">
+      <div class="slogo" style="background:#7c3aed">GAD Medical</div>
+      <div class="sinfo"><h3>GAD Medical</h3><div class="sbrand">Terumo — OPTITORQUE / OUTLOOK / GLIDECATH / CLIMBER</div>
+      <div class="pchips">
+        <span class="pchip" style="background:#faf5ff;color:#6d28d9;border-color:#ddd6fe">OPTITORQUE: $14.75</span>
+        <span class="pchip" style="background:#faf5ff;color:#6d28d9;border-color:#ddd6fe">OUTLOOK: $19.5</span>
+        <span class="pchip" style="background:#faf5ff;color:#6d28d9;border-color:#ddd6fe">GLIDECATH: $51.6</span>
+      </div>
+      <div class="prod-sec">
+        <span class="prod-lbl">מקטי PROD — מזור</span>
+        <div class="prod-rows">
+          <div class="prod-row"><span class="prod-num" style="background:#ede9fe;color:#5b21b6;border-color:#ddd6fe">10000531</span><span class="prod-nm">OPTITORQUE RADIAL — Diagnostic</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#ede9fe;color:#5b21b6;border-color:#ddd6fe">10000532</span><span class="prod-nm">OUTLOOK — Diagnostic</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#ede9fe;color:#5b21b6;border-color:#ddd6fe">10000533</span><span class="prod-nm">GLIDECATH COBRA — Diagnostic</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#ede9fe;color:#5b21b6;border-color:#ddd6fe">10000546</span><span class="prod-nm">CLIMBER HYDROPHILIC — Guiding</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#ede9fe;color:#5b21b6;border-color:#ddd6fe">10000547</span><span class="prod-nm">HEARTRAIL — Guiding</span></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="supplier-card" style="border-color:#ea580c">
+      <div class="slogo" style="background:#ea580c">DUKE</div>
+      <div class="sinfo"><h3>DUKE Medical Solutions</h3><div class="sbrand">Cordis — ST+ / INFINITY / VISTA / HF Series</div>
+      <div class="pchips">
+        <span class="pchip" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">INFINITY STD: $13.9/יח׳</span>
+        <span class="pchip" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">INFINITY SRD: $36/יח׳</span>
+        <span class="pchip" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">VISTA Guiding: $63.33/יח׳</span>
+        <span class="pchip" style="background:#fff7ed;color:#c2410c;border-color:#fed7aa">S.M.A.R.T: $107/יח׳</span>
+      </div>
+      <div class="prod-sec">
+        <span class="prod-lbl">מקטי PROD — מזור</span>
+        <div class="prod-rows">
+          <div class="prod-row"><span class="prod-num" style="background:#ffedd5;color:#9a3412;border-color:#fed7aa">10000534</span><span class="prod-nm">INFINITY STANDARD — Diagnostic</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#ffedd5;color:#9a3412;border-color:#fed7aa">10000535</span><span class="prod-nm">INFINITY SRD SPECIAL — Diagnostic</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#ffedd5;color:#9a3412;border-color:#fed7aa">10000544</span><span class="prod-nm">VISTA BRITE TIP — Guiding</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#ffedd5;color:#9a3412;border-color:#fed7aa">10000545</span><span class="prod-nm">S.M.A.R.T NITINOL — Guiding</span></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="supplier-card" style="border-color:#0891b2">
+      <div class="slogo" style="background:#0891b2">MEDTRONIC</div>
+      <div class="sinfo"><h3>MEDTRONIC</h3><div class="sbrand">Medtronic — DXTERITY (אבחנתי) / TRAPEASE / LAUNCHER (מנחה)</div>
+      <div class="pchips">
+        <span class="pchip" style="background:#ecfeff;color:#0e7490;border-color:#a5f3fc">DXTERITY Diag: ₪44≈$12/יח׳</span>
+        <span class="pchip" style="background:#ecfeff;color:#0e7490;border-color:#a5f3fc">TRAPEASE: ₪64≈$17/יח׳</span>
+        <span class="pchip" style="background:#ecfeff;color:#0e7490;border-color:#a5f3fc">LAUNCHER Guid: ₪213≈$58/יח׳</span>
+      </div>
+      <div class="prod-sec">
+        <span class="prod-lbl">מקטי PROD — מזור</span>
+        <div class="prod-rows">
+          <div class="prod-row"><span class="prod-num" style="background:#cffafe;color:#0e7490;border-color:#a5f3fc">10000536</span><span class="prod-nm">DXTERITY STANDARD — Diagnostic</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#cffafe;color:#0e7490;border-color:#a5f3fc">10000537</span><span class="prod-nm">TRAPEASE 5F U5TRAP — Diagnostic</span></div>
+          <div class="prod-row"><span class="prod-num" style="background:#cffafe;color:#0e7490;border-color:#a5f3fc">10000550</span><span class="prod-nm">LAUNCHER — Guiding</span></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="supplier-card" style="border-color:#16a34a">
+      <div class="slogo" style="background:#16a34a">GETTER</div>
+      <div class="sinfo"><h3>GETTER</h3><div class="sbrand">Cook Medical — HN Series</div>
+      <div class="pchips"><span class="pchip" style="background:#f0fdf4;color:#15803d;border-color:#bbf7d0">$33/יח׳</span></div>
+      <div class="prod-sec">
+        <span class="prod-lbl">מקטי PROD — מזור</span>
+        <div class="prod-rows">
+          <div class="prod-row"><span class="prod-num" style="background:#dcfce7;color:#15803d;border-color:#bbf7d0">10000542</span><span class="prod-nm">HNB HEADHUNTER — Diagnostic</span></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+    <div class="card">
+      <div class="card-header"><h2>🩺 מדריך צורות קטטר — אבחנתי / Diagnostic</h2></div>
+      <div class="card-body" style="font-size:0.8rem">
+        <table style="width:100%;border-collapse:collapse">
+          <tbody id="guide-diag-table"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><h2>🎯 מדריך צורות קטטר — מנחה / Guiding</h2></div>
+      <div class="card-body" style="font-size:0.8rem">
+        <table style="width:100%;border-collapse:collapse">
+          <tbody id="guide-guid-table"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DIAGNOSTIC -->
+<div class="page" id="page-diagnostic">
+  <div class="sec-title">
+    <h2>🔵 קטטרים אבחנתיים / Angiographic Catheters</h2>
+    <span class="sec-badge" id="diag-count">—</span>
+  </div>
+  <div class="info-panel">
+    <div><h3>מפתח צבעים — מחיר ליחידה</h3>
+      <div class="legend-items">
+        <div class="legend-item"><div class="ldot" style="background:#10b981"></div>הכי זול</div>
+        <div class="legend-item"><div class="ldot" style="background:#3b82f6"></div>טוב</div>
+        <div class="legend-item"><div class="ldot" style="background:#f59e0b"></div>בינוני</div>
+        <div class="legend-item"><div class="ldot" style="background:#ef4444"></div>יקר</div>
+      </div>
+    </div>
+    <div style="font-size:0.76rem;opacity:0.85">לחץ על שורה לפרטים ומחירים מלאים</div>
+  </div>
+  <div class="filters-bar">
+    <div class="search-box"><span class="search-icon">🔍</span>
+      <input type="text" id="diag-search" placeholder="חיפוש סוג, שם מוצר, מק״ט..." oninput="renderDiag()"></div>
+    <div class="filter-group"><span class="filter-label">French:</span>
+      <button class="filter-btn active" onclick="sf('df',this,'all')">הכל</button>
+      <button class="filter-btn" onclick="sf('df',this,'4F')">4F</button>
+      <button class="filter-btn" onclick="sf('df',this,'5F')">5F</button>
+      <button class="filter-btn" onclick="sf('df',this,'6F')">6F</button>
+    </div>
+    <div class="filter-group"><span class="filter-label">ספק:</span>
+      <button class="filter-btn active" onclick="sf('ds',this,'all')">הכל</button>
+      <button class="filter-btn" style="color:#2563eb" onclick="sf('ds',this,'medtechnica')">MEDTECHNICA</button>
+      <button class="filter-btn" style="color:#7c3aed" onclick="sf('ds',this,'gad')">GAD</button>
+      <button class="filter-btn" style="color:#ea580c" onclick="sf('ds',this,'duke')">DUKE</button>
+      <button class="filter-btn" style="color:#0891b2" onclick="sf('ds',this,'medtronic')">MEDTRONIC</button>
+      <button class="filter-btn" style="color:#16a34a" onclick="sf('ds',this,'getter')">GETTER</button>
+    </div>
+  </div>
+  <div class="table-wrapper">
+    <table><thead><tr>
+      <th>F</th><th>סוג קטטר</th><th>אורך</th><th>MIN/MAX</th>
+      <th class="center" style="background:linear-gradient(135deg,#1d4ed8,#2563eb)">MEDTECHNICA<br><small style="font-weight:400;opacity:0.85">Boston Scientific</small></th>
+      <th class="center" style="background:linear-gradient(135deg,#6d28d9,#7c3aed)">GAD Medical<br><small style="font-weight:400;opacity:0.85">Terumo</small></th>
+      <th class="center" style="background:linear-gradient(135deg,#c2410c,#ea580c)">DUKE<br><small style="font-weight:400;opacity:0.85">Cordis</small></th>
+      <th class="center" style="background:linear-gradient(135deg,#0e7490,#0891b2)">MEDTRONIC<br><small style="font-weight:400;opacity:0.85">Medinol</small></th>
+      <th class="center" style="background:linear-gradient(135deg,#15803d,#16a34a)">GETTER<br><small style="font-weight:400;opacity:0.85">Cook Medical</small></th>
+      <th>פרוצדורה</th>
+    </tr></thead><tbody id="diag-tbody"></tbody></table>
+  </div>
+</div>
+
+<!-- GUIDING -->
+<div class="page" id="page-guiding">
+  <div class="sec-title">
+    <h2>🟠 קטטרים מנחים / Guiding Catheters</h2>
+    <span class="sec-badge" id="guid-count">—</span>
+  </div>
+  <div class="info-panel">
+    <div><h3>קטטרים מנחים — מיועדים לצנתורים טיפוליים (PCI)</h3>
+      <div class="legend-items">
+        <div class="legend-item"><div class="ldot" style="background:#6366f1"></div>5F</div>
+        <div class="legend-item"><div class="ldot" style="background:#0891b2"></div>6F (הנפוץ ביותר)</div>
+        <div class="legend-item"><div class="ldot" style="background:#ef4444"></div>7F</div>
+        <div class="legend-item"><div class="ldot" style="background:#8b5cf6"></div>8F</div>
+      </div>
+    </div>
+    <div style="font-size:0.76rem;opacity:0.85">לחץ על שורה לפרטים ומחירים מלאים</div>
+  </div>
+  <div class="filters-bar">
+    <div class="search-box"><span class="search-icon">🔍</span>
+      <input type="text" id="guid-search" placeholder="חיפוש סוג, שם מוצר, מק״ט..." oninput="renderGuid()"></div>
+    <div class="filter-group"><span class="filter-label">French:</span>
+      <button class="filter-btn active" onclick="sf('gf',this,'all')">הכל</button>
+      <button class="filter-btn" onclick="sf('gf',this,'5F')">5F</button>
+      <button class="filter-btn" onclick="sf('gf',this,'6F')">6F</button>
+      <button class="filter-btn" onclick="sf('gf',this,'7F')">7F</button>
+      <button class="filter-btn" onclick="sf('gf',this,'8F')">8F</button>
+    </div>
+    <div class="filter-group"><span class="filter-label">צורה:</span>
+      <button class="filter-btn active" onclick="sf('gsh',this,'all')">הכל</button>
+      <button class="filter-btn" onclick="sf('gsh',this,'EBU')">EBU/XB</button>
+      <button class="filter-btn" onclick="sf('gsh',this,'JL')">JL</button>
+      <button class="filter-btn" onclick="sf('gsh',this,'JR')">JR</button>
+      <button class="filter-btn" onclick="sf('gsh',this,'AL')">AL</button>
+      <button class="filter-btn" onclick="sf('gsh',this,'AR')">AR</button>
+      <button class="filter-btn" onclick="sf('gsh',this,'IM')">IMA</button>
+      <button class="filter-btn" onclick="sf('gsh',this,'MPA')">MPA</button>
+    </div>
+  </div>
+  <div class="table-wrapper">
+    <table><thead><tr>
+      <th>F</th><th>סוג קטטר</th><th>אורך</th><th>MIN/MAX</th>
+      <th class="center" style="background:linear-gradient(135deg,#1d4ed8,#2563eb)">MEDTECHNICA<br><small style="font-weight:400;opacity:0.85">MACH 1</small></th>
+      <th class="center" style="background:linear-gradient(135deg,#6d28d9,#7c3aed)">GAD Medical<br><small style="font-weight:400;opacity:0.85">CLIMBER</small></th>
+      <th class="center" style="background:linear-gradient(135deg,#c2410c,#ea580c)">DUKE<br><small style="font-weight:400;opacity:0.85">Cordis Vista/GC</small></th>
+      <th class="center" style="background:linear-gradient(135deg,#0e7490,#0891b2)">MEDTRONIC<br><small style="font-weight:400;opacity:0.85">Launcher</small></th>
+      <th>פרוצדורה</th>
+    </tr></thead><tbody id="guid-tbody"></tbody></table>
+  </div>
+</div>
+
+<!-- COMPARE -->
+<div class="page" id="page-compare">
+  <div class="sec-title"><h2>⚖️ השוואת מחירים בין ספקים</h2></div>
+  <div class="filters-bar">
+    <div class="filter-group"><span class="filter-label">קטגוריה:</span>
+      <button class="filter-btn active" onclick="sf('cc',this,'DIAGNOSTIC')">🔵 אבחנתי</button>
+      <button class="filter-btn" onclick="sf('cc',this,'GUIDING')">🟠 מנחה</button>
+    </div>
+    <div class="filter-group"><span class="filter-label">French:</span>
+      <button class="filter-btn active" onclick="sf('cf',this,'all')">הכל</button>
+      <button class="filter-btn" onclick="sf('cf',this,'4F')">4F</button>
+      <button class="filter-btn" onclick="sf('cf',this,'5F')">5F</button>
+      <button class="filter-btn" onclick="sf('cf',this,'6F')">6F</button>
+      <button class="filter-btn" onclick="sf('cf',this,'7F')">7F</button>
+    </div>
+    <div class="search-box" style="max-width:260px"><span class="search-icon">🔍</span>
+      <input type="text" id="cmp-search" placeholder="חיפוש..." oninput="renderCmp()"></div>
+  </div>
+  <div class="table-wrapper">
+    <table><thead><tr>
+      <th>F</th><th>סוג</th><th>אורך</th>
+      <th class="center" style="background:linear-gradient(135deg,#1d4ed8,#2563eb)">MEDTECHNICA</th>
+      <th class="center" style="background:linear-gradient(135deg,#6d28d9,#7c3aed)">GAD</th>
+      <th class="center" style="background:linear-gradient(135deg,#c2410c,#ea580c)">DUKE</th>
+      <th class="center" style="background:linear-gradient(135deg,#0e7490,#0891b2)">MEDTRONIC</th>
+      <th class="center" style="background:linear-gradient(135deg,#15803d,#16a34a)">GETTER</th>
+      <th class="center">חיסכון מקס׳</th>
+    </tr></thead><tbody id="cmp-tbody"></tbody></table>
+  </div>
+</div>
+
+<!-- INVENTORY -->
+<div class="page" id="page-inventory">
+  <div class="sec-title">
+    <h2>📦 ניהול מלאי — MINMAX</h2>
+    <span class="sec-badge">מחזור הזמנה: 2–3 שבועות</span>
+  </div>
+  <div class="filters-bar">
+    <div class="search-box"><span class="search-icon">🔍</span>
+      <input type="text" id="inv-search" placeholder="חיפוש..." oninput="renderInv()"></div>
+    <div class="filter-group"><span class="filter-label">קטגוריה:</span>
+      <button class="filter-btn active" onclick="sf('ic',this,'all')">הכל</button>
+      <button class="filter-btn" onclick="sf('ic',this,'DIAGNOSTIC')">🔵 אבחנתי</button>
+      <button class="filter-btn" onclick="sf('ic',this,'GUIDING')">🟠 מנחה</button>
+    </div>
+    <div class="filter-group"><span class="filter-label">French:</span>
+      <button class="filter-btn active" onclick="sf('if',this,'all')">הכל</button>
+      <button class="filter-btn" onclick="sf('if',this,'4F')">4F</button>
+      <button class="filter-btn" onclick="sf('if',this,'5F')">5F</button>
+      <button class="filter-btn" onclick="sf('if',this,'6F')">6F</button>
+      <button class="filter-btn" onclick="sf('if',this,'7F')">7F</button>
+    </div>
+  </div>
+  <div class="inv-grid" id="inv-grid"></div>
+</div>
+
+<!-- CATALOG -->
+<div class="page" id="page-catalog">
+  <div class="sec-title"><h2>🏢 קטלוג ספקים</h2></div>
+  <div class="filters-bar">
+    <div class="filter-group"><span class="filter-label">ספק:</span>
+      <button class="filter-btn active" onclick="sf('cs',this,'all')">הכל</button>
+      <button class="filter-btn" style="color:#2563eb" onclick="sf('cs',this,'medtechnica')">MEDTECHNICA</button>
+      <button class="filter-btn" style="color:#7c3aed" onclick="sf('cs',this,'gad')">GAD</button>
+      <button class="filter-btn" style="color:#ea580c" onclick="sf('cs',this,'duke')">DUKE</button>
+      <button class="filter-btn" style="color:#0891b2" onclick="sf('cs',this,'medtronic')">MEDTRONIC</button>
+      <button class="filter-btn" style="color:#16a34a" onclick="sf('cs',this,'getter')">GETTER</button>
+    </div>
+    <div class="filter-group"><span class="filter-label">קטגוריה:</span>
+      <button class="filter-btn active" onclick="sf('ccat',this,'all')">הכל</button>
+      <button class="filter-btn" onclick="sf('ccat',this,'DIAGNOSTIC')">🔵 אבחנתי</button>
+      <button class="filter-btn" onclick="sf('ccat',this,'GUIDING')">🟠 מנחה</button>
+    </div>
+    <div class="search-box"><span class="search-icon">🔍</span>
+      <input type="text" id="cat-search" placeholder="חיפוש מוצר / מק״ט..." oninput="renderCat()"></div>
+  </div>
+  <div class="table-wrapper">
+    <table><thead><tr>
+      <th>ספק</th><th>יצרן</th><th>שם מוצר</th><th>מק״ט</th><th>קטגוריה</th><th>French / סוג</th><th class="center">מחיר</th>
+    </tr></thead><tbody id="cat-tbody"></tbody></table>
+  </div>
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="background:linear-gradient(135deg,#1e1f6b,#2B2D7F);color:rgba(255,255,255,0.75);text-align:center;padding:1rem 1.5rem;margin-top:2rem;font-size:0.75rem;letter-spacing:0.04em">
+  <div style="max-width:1600px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;row-gap:0.6rem">
+    <div style="display:flex;align-items:center;gap:0.6rem">
+      <svg viewBox="-3 -4 112 38" xmlns="http://www.w3.org/2000/svg" style="height:26px;opacity:0.95">
+        <!-- Upper arc (teal) -->
+        <path d="M 22,10 C 23.5,5 19,2 13,2 C 7,2 2,5 2,10 C 2,15 5.5,17 10,17"
+              stroke="#42C6B5" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+        <!-- Lower arc (pink) -->
+        <path d="M 3.5,16 C 1.5,21 4,27 10,27 C 16,27 21,24 21,19"
+              stroke="#E84292" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+        <text x="28" y="13" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="800" fill="white" letter-spacing="0.5">SHEBA</text>
+        <text x="28" y="22" font-family="'Segoe UI',Arial,sans-serif" font-size="5.5" fill="rgba(255,255,255,0.72)">Tel HaShomer · City of Health</text>
+      </svg>
+      <span style="color:rgba(255,255,255,0.5)">|</span>
+      <span>Sheba Medical Center · מרכז רפואי שיבא תל השומר</span>
+    </div>
+    <div style="color:rgba(255,255,255,0.85);font-weight:500">
+      © 2026 All rights reserved to <strong style="color:#42C6B5">RINAT ETUS</strong>
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-ov" onclick="if(event.target===this)closeModal()">
+  <div class="modal" id="modal-box">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <h2 id="m-title"></h2>
+    <div class="msub" id="m-sub"></div>
+    <div id="m-body"></div>
+  </div>
+</div>
+
+<script>
+const S={
+  medtechnica:{id:'medtechnica',name:'MEDTECHNICA',brand:'Boston Scientific',color:'#2563eb',bg:'#eff6ff'},
+  gad:{id:'gad',name:'GAD Medical',brand:'Terumo',color:'#7c3aed',bg:'#faf5ff'},
+  duke:{id:'duke',name:'DUKE',brand:'Cordis',color:'#ea580c',bg:'#fff7ed'},
+  medtronic:{id:'medtronic',name:'MEDTRONIC',brand:'Medinol',color:'#0891b2',bg:'#ecfeff'},
+  getter:{id:'getter',name:'GETTER',brand:'Cook Medical',color:'#16a34a',bg:'#f0fdf4'}
+};
+
+function gp(sup,cat,pname){
+  if(sup==='medtechnica'){
+    if(cat==='GUIDING') return {d:'$49',u:49};
+    if(pname&&pname.includes('IMAGER')) return {d:'$29.6',u:29.6};
+    return {d:'$9',u:9};
+  }
+  if(sup==='gad'){
+    if(cat==='GUIDING') return {d:'$58',u:58};
+    if(pname&&pname.includes('OUTLOOK')) return {d:'$19.5',u:19.5};
+    if(pname&&pname.includes('GLIDECATH')) return {d:'$51.6',u:51.6};
+    return {d:'$14.75',u:14.75};
+  }
+  if(sup==='duke'){
+    if(cat==='GUIDING'){
+      if(pname&&pname.toUpperCase().includes('S.M.A.R.T')) return {d:'$107',u:107};
+      return {d:'$63.33',u:63.33};
+    }
+    if(pname&&(pname.toUpperCase().includes('SRD')||pname.toUpperCase().includes(' SR '))) return {d:'$36',u:36};
+    return {d:'$13.9',u:13.9};
+  }
+  if(sup==='medtronic'){
+    if(cat==='GUIDING') return {d:'₪213≈$58',u:58};
+    if(pname&&pname.toUpperCase().includes('TRAPEASE')) return {d:'₪64≈$17',u:17};
+    return {d:'₪44≈$12',u:12};
+  }
+  if(sup==='getter') return {d:'$33',u:33};
+  return null;
+}
+
+const PROC={
+  'JL':'Judkins Left — קטטרציה סטנדרטית כלילית שמאל',
+  'JR':'Judkins Right — קטטרציה סטנדרטית כלילית ימין',
+  'AL':'Amplatz Left — כלילית שמאל, אורטה אופקית',
+  'AR':'Amplatz Right — כלילית ימין, גישה חלופית',
+  'PIG':'Pigtail — ונטריקולוגרפיה שמאלית, אאורטוגרפיה',
+  'FL':'Femoral Left / TIG — גישה רדיאלית, כלילית שמאל',
+  'FR':'Femoral Right / TIG — גישה רדיאלית, כלילית ימין',
+  'IM':'IMA — קטטרציה גשר LIMA (ניתוח מעקפים)',
+  'MPA':'Multi-Purpose — גשרים, חדר שמאל, ורידי',
+  'VTK':'Vertebral — כלים קטנים, ניווט בכלי דם מתפתלים (GETTER/MEDTRONIC)',
+  'SIMMONS':'Simmons — אנטומיה מורכבת, ויסצרלי',
+  '3DRC':'3D Right Coronary — כלילית ימנית מורכבת',
+  'BER':'Berenstein — גישות מגוונות',
+  'J CURVE':'J-Curve — גישה חלופית כלילית ימין',
+  'EBU':'Extra BackUp — תמיכה מוגברת PCI כלילית שמאל',
+  'XB':'Extra BackUp (Cordis) — תמיכה מוגברת PCI שמאל',
+  'XBRCA':'XB RCA — תמיכה PCI כלילית ימין',
+  'MACH':'MACH 1 NSH — גיידינג כללי',
+  'BEACON':'Beacon Rim — EBU-type Medtronic (גיידינג גיבוי)',
+  'H1':'Headhunter 1 — ויסצרלי, כלי דם היקפיים',
+  'C1':'Cobra — ויסצרלי, כלי דם היקפיים',
+  'IKARI':'Ikari — גישה רדיאלית מיוחדת (RCA/LCA)',
+  'BYPASS':'Bypass — קטטרציית גשרים ורידיים'
+};
+function gproc(t){
+  if(!t) return '';
+  const tu=t.toUpperCase();
+  for(const k of Object.keys(PROC)){if(tu.startsWith(k)) return PROC[k];}
+  return '';
+}
+
+const DATA=[
+// DIAGNOSTIC 4F
+{c:'DIAGNOSTIC',f:'4F',t:'JL 3.5',l:['100CM','125CM'],mn:10,mx:30,s:{medtechnica:{n:'IMPULSE JL3.5',r:'H74916391012'},gad:{n:'OPTITORQUE 4Fr JL 3.5',r:'RH4CL3500M'},duke:{n:'CATH INF F4 JL-3.5',r:'538418'},medtronic:{n:'DXTERITY JL3.5',r:'DXT5JL35'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'JL 4.0',l:['100CM','125CM'],mn:10,mx:20,s:{medtechnica:null,gad:{n:'OPTITORQUE 4Fr JL 4.0',r:'RH4CL4000M'},duke:{n:'CATH INF F4 JL-4',r:'538420'},medtronic:{n:'DXTERITY JL4.0',r:'DXT5JL40'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'JL 5',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:null,gad:{n:'OPTITORQUE 4Fr JL 5.0',r:'RH4CL5000M'},duke:{n:'CATH INF F4 JL-5',r:'538422'},medtronic:{n:'DXTERITY JL5.0',r:'DXT5JL50'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'JR 4',l:['100CM','125CM'],mn:10,mx:30,s:{medtechnica:null,gad:{n:'OPTITORQUE 4Fr JR 4.0',r:'RH4CR4000M'},duke:{n:'CATH INF F4 JR-4',r:'538421'},medtronic:{n:'DXTERITY JR4.0',r:'DXT5JR40'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'AR 1',l:['100CM','125CM'],mn:10,mx:30,s:{medtechnica:null,gad:{n:'OPTITORQUE 4Fr AR Sm',r:'RH4AR1000M'},duke:{n:'CATH INF F4 AR-I',r:'538441'},medtronic:{n:'DXTERITY AR1',r:'DXT5AR10'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'AR 2',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:null,gad:{n:'OPTITORQUE 4Fr AR Mid',r:'RH4AR2000M'},duke:{n:'CATH INF F4 AR-II',r:'538443'},medtronic:{n:'DXTERITY AR2',r:'DXT5AR20'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'AL 1',l:['100CM','125CM'],mn:10,mx:30,s:{medtechnica:null,gad:{n:'OPTITORQUE 4Fr AL Sm',r:'RH4AL1000M'},duke:{n:'CATH INF F4 AL-I',r:'538445'},medtronic:{n:'DXTERITY AL1',r:'DXT5AL10'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'AL 2',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:null,gad:{n:'OPTITORQUE 4Fr AL Mid',r:'RH4AL2000M'},duke:{n:'CATH INF F4 AL-II',r:'538446'},medtronic:{n:'DXTERITY AL2',r:'DXT5AL20'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'MPA 1',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:{n:'IMPULSE 4F MPA1',r:'H749163911172'},gad:{n:'OPTITORQUE 4Fr MP 3.5',r:'RH4MP3520M'},duke:{n:'CATH INF F4 MPA-1',r:'538440'},medtronic:{n:'DXTERITY MPA',r:'DXT5MPASHA'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'MPA 2',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:null,gad:null,duke:{n:'CATH INF F4 MPA-2',r:'538442'},medtronic:{n:'DXTERITY MPA2',r:'DXT5MPASHA'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'PIG',l:['110CM'],mn:5,mx:10,s:{medtechnica:null,gad:{n:'OUTLOOK 4Fr Pigtail',r:'RQ4SP0089M'},duke:{n:'CATH INF F4 PIG 110',r:'538450S'},medtronic:{n:'DXTERITY PIG',r:'DXT5PIGSTA'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'J CURVE',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:null,gad:{n:'OPTITORQUE 4Fr JR 3.5',r:'RH4CR3500M'},duke:{n:'CATH INF F4 JR-3.5',r:'538419'},medtronic:{n:'DXTERITY JR3.5',r:'DXT5JR35'},getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'SIMMONS 1',l:['100CM'],mn:3,mx:5,s:{medtechnica:null,gad:{n:'OUTLOOK 4Fr Sim1',r:'RQBA14110M'},duke:null,medtronic:null,getter:null}},
+{c:'DIAGNOSTIC',f:'4F',t:'SIMMONS 2',l:['100CM'],mn:3,mx:5,s:{medtechnica:null,gad:{n:'OUTLOOK 4Fr Sim2',r:'RQBA24110M'},duke:null,medtronic:null,getter:null}},
+// DIAGNOSTIC 5F
+{c:'DIAGNOSTIC',f:'5F',t:'FL 3.5',l:['100CM','125CM'],mn:50,mx:200,s:{medtechnica:{n:'IMPULSE 5F FL3.5',r:'H74916391212'},gad:null,duke:null,medtronic:null,getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'FL 4',l:['100CM','125CM'],mn:30,mx:50,s:{medtechnica:{n:'IMPULSE 5F FL4',r:'H74916391222'},gad:null,duke:null,medtronic:null,getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'FL 5',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:{n:'IMPULSE 5F FL5',r:'H74916391242'},gad:null,duke:null,medtronic:null,getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'FR 4',l:['100CM','110CM'],mn:100,mx:200,s:{medtechnica:{n:'IMPULSE 5F FR4',r:'H74916391022'},gad:null,duke:{n:'CATH ST F5 JR-4',r:'533552'},medtronic:null,getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'FR 5',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:{n:'IMPULSE 5F FR5',r:'H74916391032'},gad:null,duke:null,medtronic:null,getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'AL 1',l:['100CM','125CM'],mn:20,mx:50,s:{medtechnica:{n:'IMPULSE 5F AL1',r:'H74916391962'},gad:{n:'OPTITORQUE 5Fr AL Sm',r:'RH5AL1000M'},duke:{n:'INF CATH F5 AL-I',r:'534545T'},medtronic:{n:'DXTERITY AL1',r:'DXT5AL10'},getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'AL 2',l:['100CM','125CM'],mn:10,mx:30,s:{medtechnica:{n:'IMPULSE 5F AL2',r:'H74916391982'},gad:{n:'OPTITORQUE 5Fr AL Mid',r:'RH5AL2000M'},duke:{n:'INF CATH F5 AL-II',r:'534546T'},medtronic:{n:'DXTERITY AL2',r:'DXT5AL20'},getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'AR 1',l:['100CM','125CM'],mn:20,mx:50,s:{medtechnica:{n:'IMPULSE 5F AR1',r:'H74916391842'},gad:{n:'OPTITORQUE 5Fr AR Sm',r:'RH5AR1000M'},duke:{n:'INF CATH F5 AR-I',r:'534541T'},medtronic:{n:'DXTERITY AR1',r:'DXT5AR10'},getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'AR 2',l:['100CM','125CM'],mn:10,mx:30,s:{medtechnica:{n:'IMPULSE 5F AR2',r:'H74916391862'},gad:{n:'OPTITORQUE 5Fr AR Mid',r:'RH5AR2000M'},duke:{n:'INF CATH F5 AR-2',r:'534543T'},medtronic:{n:'DXTERITY AR2',r:'DXT5AR20'},getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'BER 2',l:['100CM','125CM'],mn:5,mx:20,s:{medtechnica:null,gad:null,duke:{n:'CATH ST F5 JR-3.5',r:'533550'},medtronic:null,getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'IM',l:['100CM','125CM'],mn:10,mx:30,s:{medtechnica:{n:'IMPULSE 5F IM',r:'H749163912012'},gad:null,duke:{n:'INF CATH F5 IM',r:'534560T'},medtronic:{n:'DXTERITY IMA',r:'DXT5IMA'},getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'MPA 1',l:['100CM','125CM'],mn:20,mx:50,s:{medtechnica:{n:'IMPULSE 5F MPA1',r:'H749163911172'},gad:null,duke:{n:'CATH ST F5 MPA-1',r:'533578'},medtronic:{n:'DXTERITY MPA',r:'DXT5MPA'},getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'MPA 2',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:{n:'IMPULSE 5F MPA2',r:'H749163911212'},gad:null,duke:{n:'CATH ST F5 MPA-2',r:'533556'},medtronic:{n:'DXTERITY MPA2',r:'DXT5MPASHA'},getter:null}},
+{c:'DIAGNOSTIC',f:'5F',t:'PIG',l:['100CM','110CM','125CM'],mn:10,mx:100,s:{medtechnica:{n:'IMPULSE 5F PIG 110CM',r:'H74916391402'},gad:null,duke:{n:'INF CATH F5 PIG 110',r:'534550S'},medtronic:{n:'DXTERITY PIG STD',r:'DXT5PIGSTA'},getter:{n:'HNB 5F PIG 100CM',r:'HNBR5.0-38-100-P-NS-PIG'}}},
+{c:'DIAGNOSTIC',f:'5F',t:'SIMMONS 1',l:['100CM'],mn:3,mx:8,s:{medtechnica:null,gad:{n:'GLIDECATH 5Fr Radifocus Sim1',r:'RFEA15010M'},duke:null,medtronic:{n:'DXTERITY 5F SIM1',r:'DXT5SIM1'},getter:{n:'HNB 5F SIM1 100CM',r:'HNBR5.0-38-100-P-NS-SIM1'}}},
+{c:'DIAGNOSTIC',f:'5F',t:'SIMMONS 2',l:['100CM'],mn:3,mx:8,s:{medtechnica:null,gad:{n:'GLIDECATH 5Fr Radifocus Sim2',r:'RFEA25010M'},duke:null,medtronic:{n:'DXTERITY 5F SIM2',r:'DXT5SIM2'},getter:{n:'HNB 5F SIM2 100CM',r:'HNBR5.0-38-100-P-NS-SIM2'}}},
+{c:'DIAGNOSTIC',f:'5F',t:'SIMMONS 3',l:['100CM'],mn:2,mx:5,s:{medtechnica:null,gad:null,duke:null,medtronic:null,getter:{n:'HNB 5F SIM3 100CM',r:'HNBR5.0-38-100-P-NS-SIM3'}}},
+{c:'DIAGNOSTIC',f:'5F',t:'3DRC',l:['100CM'],mn:2,mx:5,s:{medtechnica:{n:'IMAGER 5F 3DRC',r:'M001314***'},gad:null,duke:{n:'4F INFINITY 3DRC',r:'538476'},medtronic:{n:'DXTERITY 5F 3DRC',r:'DXT53DRC'},getter:{n:'HNB 5F DAV 100CM',r:'HNBR5.0-38-100-P-NS-DAV'}}},
+{c:'DIAGNOSTIC',f:'5F',t:'VTK',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:null,gad:null,duke:null,medtronic:{n:'DXTERITY 5F VTK',r:'DXT5VTK'},getter:{n:'HNB 5F VTK 100CM',r:'HNBR5.0-38-100-P-NS-VTK'}}},
+{c:'DIAGNOSTIC',f:'5F',t:'MPA 1 COOK',l:['100CM','125CM'],mn:3,mx:5,s:{medtechnica:null,gad:null,duke:null,medtronic:null,getter:{n:'HNB 5F MPA 100CM',r:'HNBR5.0-38-100-P-NS-MPA'}}},
+{c:'DIAGNOSTIC',f:'5F',t:'H1 HEADHUNTER',l:['100CM','125CM'],mn:3,mx:5,s:{medtechnica:null,gad:null,duke:null,medtronic:null,getter:{n:'HNB 5F H1 100CM',r:'HNBR5.0-38-100-P-NS-H1'}}},
+{c:'DIAGNOSTIC',f:'5F',t:'C1 COBRA',l:['100CM','125CM'],mn:3,mx:5,s:{medtechnica:null,gad:null,duke:null,medtronic:null,getter:{n:'HNB 5F C1 100CM',r:'HNBR5.0-38-100-P-NS-C1'}}},
+// DIAGNOSTIC 6F
+{c:'DIAGNOSTIC',f:'6F',t:'FL 6',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:{n:'IMPULSE 5F FL6',r:'H74916391252'},gad:null,duke:null,medtronic:null,getter:null}},
+{c:'DIAGNOSTIC',f:'6F',t:'MPA 1',l:['100CM','125CM'],mn:5,mx:10,s:{medtechnica:null,gad:null,duke:{n:'CATH F6 MPA-1 100CM',r:'533640'},medtronic:{n:'DXTERITY 6F MPA',r:'DXT6MPA'},getter:null}},
+{c:'DIAGNOSTIC',f:'6F',t:'PIG',l:['65CM','110CM'],mn:5,mx:30,s:{medtechnica:null,gad:{n:'OPTITORQUE 6Fr SP SH6',r:'RH6SP0061M'},duke:{n:'INF CATH F6 PIG 110',r:'534650E'},medtronic:{n:'DXTERITY 6F PIG',r:'DXT6PIGSTA'},getter:null}},
+// GUIDING 5F
+{c:'GUIDING',f:'5F',t:'EBU 3.5',l:['100CM','110CM'],mn:null,mx:null,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr EBU3.5',r:'GC-P5EB350N'},duke:null,medtronic:{n:'Launcher EBU3.5',r:'LA5EBU35'},getter:null}},
+{c:'GUIDING',f:'5F',t:'EBU 4',l:['100CM','110CM'],mn:null,mx:null,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr EBU4',r:'GC-P5EB400N'},duke:null,medtronic:{n:'Launcher EBU4',r:'LA5EBU40'},getter:null}},
+{c:'GUIDING',f:'5F',t:'XB 3',l:['100CM','110CM'],mn:10,mx:20,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr XB3',r:'GC-P5EB300N'},duke:{n:'GC 5F XB-3.5 LBT',r:'5560540L'},medtronic:{n:'Launcher EBU3',r:'LA5EBU30'},getter:null}},
+{c:'GUIDING',f:'5F',t:'XB 3.5',l:['100CM','110CM'],mn:5,mx:10,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr XB3.5',r:'GC-P5XR350N'},duke:{n:'GC 5F XB-3.5 LBT',r:'5560540L'},medtronic:{n:'Launcher EBU3.5',r:'LA5EBU35'},getter:null}},
+{c:'GUIDING',f:'5F',t:'JR 4',l:['100CM','110CM'],mn:10,mx:20,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr JR4',r:'GC-P5JR400N'},duke:{n:'GC 5F JR-4 LBT',r:'5560820L'},medtronic:{n:'Launcher JR4',r:'LA5JR40'},getter:null}},
+{c:'GUIDING',f:'5F',t:'JL 3.5',l:['100CM','110CM'],mn:5,mx:15,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr JL3.5',r:'GC-P5JL350N'},duke:{n:'GC 5F JL-3.5 LBT',r:'5560020L'},medtronic:{n:'Launcher JL3.5',r:'LA5JL35'},getter:null}},
+{c:'GUIDING',f:'5F',t:'JL 4',l:['100CM','110CM'],mn:5,mx:10,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr JL4',r:'GC-P5JL400N'},duke:{n:'GC 5F JL-4 LBT',r:'5560040L'},medtronic:{n:'Launcher JL4',r:'LA5JL40'},getter:null}},
+{c:'GUIDING',f:'5F',t:'AR 1',l:['100CM','110CM'],mn:5,mx:15,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr AR1',r:'GC-P5AR100N'},duke:{n:'S.M.A.R.T 5F AR-1',r:'SM7333'},medtronic:{n:'Launcher AR1',r:'LA5AR10'},getter:null}},
+{c:'GUIDING',f:'5F',t:'AL 1',l:['100CM','110CM'],mn:5,mx:15,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr AL1',r:'GC-P5AL100N'},duke:{n:'S.M.A.R.T 5F AL-1',r:'SM7331'},medtronic:{n:'Launcher AL1',r:'LA5AL10'},getter:null}},
+{c:'GUIDING',f:'5F',t:'MPA 1',l:['100CM','110CM'],mn:5,mx:15,s:{medtechnica:null,gad:{n:'CLIMBER 5Fr MPA',r:'GC-P5MP000N'},duke:{n:'GC 5F MPA-1 LBT',r:'5562700L'},medtronic:{n:'Launcher MPA1',r:'LA5MP1'},getter:null}},
+{c:'GUIDING',f:'5F',t:'MPA 2',l:['100CM','110CM'],mn:4,mx:8,s:{medtechnica:null,gad:null,duke:null,medtronic:{n:'Launcher MPA2',r:'LA5MP1'},getter:null}},
+// GUIDING 6F
+{c:'GUIDING',f:'6F',t:'EBU 3.25',l:['100CM','110CM'],mn:5,mx:10,s:{medtechnica:{n:'MACH1 6F EBU3.25',r:'H74934356010'},gad:{n:'CLIMBER 6Fr EBU3.25',r:'GC-P6EB320N'},duke:null,medtronic:{n:'Launcher EBU3.25',r:'LA6EBU325'},getter:null}},
+{c:'GUIDING',f:'6F',t:'EBU 3.5',l:['100CM','110CM'],mn:5,mx:10,s:{medtechnica:{n:'MACH1 6F EBU3.5',r:'H74934356010'},gad:{n:'CLIMBER 6Fr EBU3.5',r:'GC-P6EB350N'},duke:{n:'GC 6F XB-3.5',r:'67005400'},medtronic:{n:'Launcher EBU3.5',r:'LA6EBU35'},getter:null}},
+{c:'GUIDING',f:'6F',t:'XB 3',l:['100CM','110CM'],mn:100,mx:200,s:{medtechnica:{n:'MACH1 6F FR3.5',r:'H74934356010'},gad:{n:'CLIMBER 6Fr XBRCA3',r:'GC-P6XR300N'},duke:{n:'GC 6F XB-3.0',r:'67005200'},medtronic:{n:'Launcher EBU3',r:'LA6EBU30'},getter:null}},
+{c:'GUIDING',f:'6F',t:'XB 3.5',l:['100CM','110CM'],mn:10,mx:20,s:{medtechnica:{n:'MACH1 6F FR4',r:'H74934356020'},gad:{n:'CLIMBER 6Fr XBRCA3.5',r:'GC-P6XR350N'},duke:{n:'GC 6F XB-3.5',r:'67005400'},medtronic:{n:'Launcher EBU3.5',r:'LA6EBU35'},getter:null}},
+{c:'GUIDING',f:'6F',t:'XB 4',l:['100CM','110CM'],mn:5,mx:10,s:{medtechnica:null,gad:{n:'CLIMBER 6Fr XBRCA4',r:'GC-P6XR400N'},duke:{n:'GC 6F XB-4.0',r:'67005600'},medtronic:{n:'Launcher EBU4',r:'LA6EBU40'},getter:null}},
+{c:'GUIDING',f:'6F',t:'XB 4.5',l:['100CM','110CM'],mn:2,mx:5,s:{medtechnica:null,gad:null,duke:{n:'GC 6F XB-4.5',r:'67005800'},medtronic:{n:'Launcher EBU4.5',r:'LA6EBU45'},getter:null}},
+{c:'GUIDING',f:'6F',t:'XBRCA',l:['100CM','110CM'],mn:2,mx:6,s:{medtechnica:null,gad:{n:'CLIMBER 6Fr XBRCA3.5',r:'GC-P6XR350N'},duke:{n:'GC 6F XBRCA',r:'67012600'},medtronic:{n:'Launcher XBRCA',r:'LA6EBU35'},getter:null}},
+{c:'GUIDING',f:'6F',t:'3DRC',l:['100CM','110CM'],mn:2,mx:6,s:{medtechnica:null,gad:null,duke:{n:'GC 6F 3DRC',r:'67013000'},medtronic:{n:'Launcher 3DRC',r:'LA63DRC'},getter:null}},
+{c:'GUIDING',f:'6F',t:'JR 4',l:['100CM','110CM','125CM'],mn:50,mx:100,s:{medtechnica:{n:'MACH1 6F FR4 NSH',r:'H74934356020'},gad:{n:'CLIMBER 6Fr JR4',r:'GC-P6JR400N'},duke:{n:'GC 6F JR-4',r:'67008200'},medtronic:{n:'Launcher JR4',r:'LA6JR40'},getter:null}},
+{c:'GUIDING',f:'6F',t:'JL 3',l:['100CM','110CM'],mn:5,mx:10,s:{medtechnica:null,gad:null,duke:{n:'GC 6F JL-3',r:'67000000'},medtronic:{n:'Launcher JL3',r:'LA6JL30'},getter:null}},
+{c:'GUIDING',f:'6F',t:'JL 3.5',l:['100CM','110CM'],mn:10,mx:20,s:{medtechnica:null,gad:{n:'CLIMBER 6Fr JL3.5',r:'GC-P6JL350N'},duke:{n:'GC 6F JL-3.5',r:'67000200'},medtronic:{n:'Launcher JL3.5',r:'LA6JL35'},getter:null}},
+{c:'GUIDING',f:'6F',t:'JL 4',l:['100CM','110CM'],mn:6,mx:10,s:{medtechnica:null,gad:{n:'CLIMBER 6Fr JL4',r:'GC-P6JL400N'},duke:{n:'GC 6F JL-4',r:'67000400'},medtronic:{n:'Launcher JL4',r:'LA6JL40'},getter:null}},
+{c:'GUIDING',f:'6F',t:'JL 5',l:['100CM','110CM'],mn:2,mx:5,s:{medtechnica:null,gad:{n:'CLIMBER 6Fr JL5',r:'GC-P6JL500N'},duke:{n:'GC 6F JL-5',r:'67000800'},medtronic:{n:'Launcher JL5',r:'LA6JL50'},getter:null}},
+{c:'GUIDING',f:'6F',t:'IM',l:['100CM','110CM'],mn:20,mx:50,s:{medtechnica:{n:'MACH1 6F IM',r:'H74934356260'},gad:{n:'CLIMBER 6Fr IM',r:'GC-P6IM000N'},duke:{n:'GC 6F IMA',r:'67019000'},medtronic:{n:'Launcher IMA',r:'LA6IMA'},getter:null}},
+{c:'GUIDING',f:'6F',t:'AL 0.75',l:['100CM','110CM'],mn:10,mx:30,s:{medtechnica:{n:'MACH1 6F AL.75 NSH',r:'H749343571080'},gad:{n:'CLIMBER 6Fr AL0.75',r:'GC-P6AL070N'},duke:{n:'GC 6F AL-.75',r:'67003400'},medtronic:{n:'Launcher AL0.75',r:'LA6AL75'},getter:null}},
+{c:'GUIDING',f:'6F',t:'AL 1',l:['100CM','110CM'],mn:10,mx:30,s:{medtechnica:{n:'MACH1 6F AL1 NSH',r:'H74934356190'},gad:{n:'CLIMBER 6Fr AL1',r:'GC-P6AL100N'},duke:{n:'GC 6F AL-1',r:'67003600'},medtronic:{n:'Launcher AL1',r:'LA6AL10'},getter:null}},
+{c:'GUIDING',f:'6F',t:'AL 2',l:['100CM','110CM'],mn:5,mx:10,s:{medtechnica:null,gad:{n:'CLIMBER 6Fr AL2',r:'GC-P6AL200N'},duke:{n:'GC 6F AL-2',r:'67004000'},medtronic:{n:'Launcher AL2',r:'LA6AL20'},getter:null}},
+{c:'GUIDING',f:'6F',t:'AR 1',l:['100CM','110CM'],mn:10,mx:30,s:{medtechnica:{n:'MACH1 6F AR1 NSH',r:'H74934356170'},gad:{n:'CLIMBER 6Fr AR1',r:'GC-P6AR100N'},duke:{n:'GC 6F AR-1',r:'67011000'},medtronic:{n:'Launcher AR1',r:'LA6AR10'},getter:null}},
+{c:'GUIDING',f:'6F',t:'AR 2',l:['100CM','110CM'],mn:5,mx:10,s:{medtechnica:{n:'MACH1 6F AR2 NSH',r:'H74934356180'},gad:{n:'CLIMBER 6Fr AR2',r:'GC-P6AR200N'},duke:{n:'GC 6F AR-2',r:'67011200'},medtronic:{n:'Launcher AR2',r:'LA6AR20'},getter:null}},
+{c:'GUIDING',f:'6F',t:'MPA 1',l:['100CM','110CM','125CM'],mn:10,mx:20,s:{medtechnica:{n:'MACH1 6F MP1 NSH',r:'H74934356380'},gad:{n:'CLIMBER 6Fr MPA',r:'GC-P6MP000N'},duke:{n:'GC 6F MPA-1',r:'67027000'},medtronic:{n:'Launcher MPA1',r:'LA6MP1'},getter:null}},
+// GUIDING 7F
+{c:'GUIDING',f:'7F',t:'XB 3',l:['100CM','110CM'],mn:1,mx:1,s:{medtechnica:null,gad:null,duke:{n:'VISTA GC 7F XB-3',r:'77805200'},medtronic:{n:'Launcher EBU3',r:'LA7EBU30'},getter:null}},
+{c:'GUIDING',f:'7F',t:'XB 3.5',l:['100CM','110CM'],mn:1,mx:1,s:{medtechnica:null,gad:null,duke:{n:'VISTA GC 7F XB-3.5',r:'77805400'},medtronic:{n:'Launcher EBU3.5',r:'LA7EBU35'},getter:null}},
+{c:'GUIDING',f:'7F',t:'JR 4',l:['100CM','110CM'],mn:1,mx:1,s:{medtechnica:null,gad:null,duke:{n:'VISTA GC 7F JR-4.0',r:'77808200'},medtronic:{n:'Launcher JR4',r:'LA7JR40'},getter:null}},
+{c:'GUIDING',f:'7F',t:'AL 1',l:['100CM','110CM'],mn:2,mx:5,s:{medtechnica:{n:'MACH1 7F AL1 NSH',r:'H74934357190'},gad:{n:'CLIMBER 7Fr AL1',r:'GC-P7AL100N'},duke:{n:'VISTA GC 7F AL-I',r:'77803600'},medtronic:{n:'Launcher AL1',r:'LA7AL10'},getter:null}},
+{c:'GUIDING',f:'7F',t:'AL 2',l:['100CM','110CM'],mn:1,mx:3,s:{medtechnica:{n:'MACH1 7F AL2 NSH',r:'H74934357200'},gad:{n:'CLIMBER 7Fr AL2',r:'GC-P7AL200N'},duke:{n:'VISTA GC 7F AL-II',r:'77804000'},medtronic:{n:'Launcher AL2',r:'LA7AL20'},getter:null}},
+{c:'GUIDING',f:'7F',t:'AL 3',l:['100CM','110CM'],mn:1,mx:3,s:{medtechnica:{n:'MACH1 7F AL3 NSH',r:'H74934357210'},gad:null,duke:{n:'VISTA GC 7F AL-III',r:'77804200'},medtronic:{n:'Launcher AL3',r:'LA7AL30'},getter:null}},
+{c:'GUIDING',f:'7F',t:'IM',l:['100CM','110CM'],mn:3,mx:5,s:{medtechnica:{n:'MACH1 7F IM',r:'H749343571220'},gad:null,duke:{n:'GC 7F 100 IM',r:'77819000'},medtronic:{n:'Launcher IMA',r:'LA7IMA'},getter:null}},
+// GUIDING 8F
+{c:'GUIDING',f:'8F',t:'MPA 1',l:['100CM','110CM'],mn:3,mx:5,s:{medtechnica:null,gad:null,duke:{n:'VISTA GC 8F MPA-1',r:'588842'},medtronic:null,getter:null}},
+{c:'GUIDING',f:'8F',t:'IM',l:['100CM','110CM'],mn:2,mx:5,s:{medtechnica:null,gad:null,duke:{n:'GC 8F IM 100CM',r:'588817'},medtronic:null,getter:null}},
+{c:'GUIDING',f:'6F',t:'BEACON RIM',l:['100CM','110CM'],mn:5,mx:10,s:{medtechnica:null,gad:null,duke:null,medtronic:{n:'LAUNCHER 6F BEACON RIM',r:'LA6BEACON'},getter:null}},
+{c:'GUIDING',f:'7F',t:'BEACON RIM',l:['100CM','110CM'],mn:2,mx:5,s:{medtechnica:null,gad:null,duke:null,medtronic:{n:'LAUNCHER 7F BEACON RIM',r:'LA7BEACON'},getter:null}},
+{c:'GUIDING',f:'6F',t:'IKARI L 3.5',l:['100CM','110CM'],mn:3,mx:8,s:{medtechnica:null,gad:{n:'HEARTRAIL 6Fr Ikari L3.5',r:'GC-K6IKL35N'},duke:null,medtronic:{n:'LAUNCHER 6F IKL3.5',r:'LA6IKL35'},getter:null}},
+{c:'GUIDING',f:'6F',t:'IKARI R 3.5',l:['100CM','110CM'],mn:3,mx:8,s:{medtechnica:null,gad:{n:'HEARTRAIL 6Fr Ikari R3.5',r:'GC-K6IKR35N'},duke:null,medtronic:{n:'LAUNCHER 6F IKR3.5',r:'LA6IKR35'},getter:null}},
+{c:'GUIDING',f:'6F',t:'BYPASS L',l:['100CM','110CM'],mn:2,mx:5,s:{medtechnica:null,gad:{n:'HEARTRAIL 6Fr Bypass L',r:'GC-K6BPL00N'},duke:null,medtronic:null,getter:null}},
+{c:'GUIDING',f:'6F',t:'BYPASS R',l:['100CM','110CM'],mn:2,mx:5,s:{medtechnica:null,gad:{n:'HEARTRAIL 6Fr Bypass R',r:'GC-K6BPR00N'},duke:null,medtronic:null,getter:null}}
+];
+
+// filters state
+const F={df:'all',ds:'all',gf:'all',gsh:'all',cc:'DIAGNOSTIC',cf:'all',ic:'all',if_:'all',cs:'all',ccat:'all'};
+function sf(k,btn,v){
+  const remap={df:'df',ds:'ds',gf:'gf',gsh:'gsh',cc:'cc',cf:'cf',ic:'ic',if:'if_',cs:'cs',ccat:'ccat'};
+  F[k]=v;
+  btn.parentElement.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  if(k==='df'||k==='ds') renderDiag();
+  else if(k==='gf'||k==='gsh') renderGuid();
+  else if(k==='cc'||k==='cf') renderCmp();
+  else if(k==='ic'||k==='if') renderInv();
+  else if(k==='cs'||k==='ccat') renderCat();
+}
+
+function navigate(id,btn){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  btn.classList.add('active');
+  if(id==='diagnostic') renderDiag();
+  else if(id==='guiding') renderGuid();
+  else if(id==='compare') renderCmp();
+  else if(id==='inventory') renderInv();
+  else if(id==='catalog') renderCat();
+}
+
+function pcls(u,all){
+  const v=all.filter(x=>x!=null);if(!v.length) return 'pgood';
+  const mn=Math.min(...v);
+  if(u===mn) return 'pbest';
+  if(u<=mn*1.25) return 'pgood';
+  if(u<=mn*2.5) return 'pmid';
+  return 'phigh';
+}
+function fc(f){return 'f'+f.replace(/\./g,'').toLowerCase();}
+function fclass(f){
+  const m={'4F':'g4f','5F':'g5f','6F':'g6f','7F':'g7f','8F':'g8f'};
+  return m[f]||'';
+}
+
+function mkPC(sup,item,supList){
+  const sv=item.s[sup];
+  if(!sv) return '<td class="pcell nosup">—</td>';
+  const p=gp(sup,item.c,sv.n);
+  const allU=supList.map(k=>{if(!item.s[k])return null;const pp=gp(k,item.c,item.s[k].n);return pp?pp.u:null;});
+  const cls=p?pcls(p.u,allU):'pgood';
+  return `<td class="pcell"><span class="ptag ${cls}">${p?p.d:'—'}</span><span class="pref">${sv.r}</span><span class="pname" title="${sv.n}">${sv.n}</span></td>`;
+}
+
+function mmCell(item){
+  if(item.mn===null) return '<td style="font-size:0.72rem;color:#d1d5db;text-align:center">—</td>';
+  const mp=item.mx>0?Math.min(100,(item.mx/200)*100):0;
+  return `<td><div class="mmcell">
+    <div class="mmrow"><span class="mmlbl" style="color:#ef4444">MIN</span><div class="sbar"><div class="sfill" style="width:${Math.min(100,item.mn)}%;background:#ef4444"></div></div><span class="snum">${item.mn}</span></div>
+    <div class="mmrow"><span class="mmlbl" style="color:#10b981">MAX</span><div class="sbar"><div class="sfill" style="width:${mp}%;background:linear-gradient(90deg,#10b981,#06b6d4)"></div></div><span class="snum">${item.mx}</span></div>
+  </div></td>`;
+}
+
+function renderDiag(){
+  const q=(document.getElementById('diag-search').value||'').toLowerCase();
+  let rows=DATA.filter(d=>d.c==='DIAGNOSTIC');
+  if(F.df!=='all') rows=rows.filter(r=>r.f===F.df);
+  if(F.ds!=='all') rows=rows.filter(r=>r.s[F.ds]!==null);
+  if(q) rows=rows.filter(r=>{
+    const txt=[r.t,r.f,...Object.values(r.s).map(v=>v?(v.n+' '+v.r):'')].join(' ').toLowerCase();
+    return txt.includes(q);
+  });
+  document.getElementById('diag-count').textContent=rows.length+' פריטים';
+  const sups=['medtechnica','gad','duke','medtronic','getter'];
+  const tb=document.getElementById('diag-tbody');
+  tb.innerHTML=rows.length?rows.map(r=>`
+    <tr class="${fclass(r.f)}" onclick="showModal(${DATA.indexOf(r)})">
+      <td><span class="fb ${fc(r.f)}">${r.f}</span></td>
+      <td><span class="tbadge">${r.t}</span></td>
+      <td style="font-size:0.75rem;color:#64748b">${r.l.join(', ')}</td>
+      ${mmCell(r)}
+      ${sups.map(s=>mkPC(s,r,sups)).join('')}
+      <td style="font-size:0.71rem;color:#64748b;max-width:150px;line-height:1.4">${gproc(r.t)}</td>
+    </tr>`).join(''):'<tr><td colspan="10" style="text-align:center;padding:2rem;color:#94a3b8">לא נמצאו תוצאות</td></tr>';
+}
+
+function renderGuid(){
+  const q=(document.getElementById('guid-search').value||'').toLowerCase();
+  let rows=DATA.filter(d=>d.c==='GUIDING');
+  if(F.gf!=='all') rows=rows.filter(r=>r.f===F.gf);
+  if(F.gsh!=='all'){
+    rows=rows.filter(r=>{
+      const t=r.t.toUpperCase();
+      if(F.gsh==='EBU') return t.startsWith('EBU')||t.startsWith('XB');
+      if(F.gsh==='IM') return t.startsWith('IM');
+      return t.startsWith(F.gsh);
+    });
+  }
+  if(q) rows=rows.filter(r=>{
+    const txt=[r.t,r.f,...Object.values(r.s).map(v=>v?(v.n+' '+v.r):'')].join(' ').toLowerCase();
+    return txt.includes(q);
+  });
+  document.getElementById('guid-count').textContent=rows.length+' פריטים';
+  const sups=['medtechnica','gad','duke','medtronic'];
+  const tb=document.getElementById('guid-tbody');
+  tb.innerHTML=rows.length?rows.map(r=>`
+    <tr class="${fclass(r.f)}" onclick="showModal(${DATA.indexOf(r)})">
+      <td><span class="fb ${fc(r.f)}">${r.f}</span></td>
+      <td><span class="tbadge">${r.t}</span></td>
+      <td style="font-size:0.75rem;color:#64748b">${r.l.join(', ')}</td>
+      ${mmCell(r)}
+      ${sups.map(s=>mkPC(s,r,sups)).join('')}
+      <td style="font-size:0.71rem;color:#64748b;max-width:150px;line-height:1.4">${gproc(r.t)}</td>
+    </tr>`).join(''):'<tr><td colspan="9" style="text-align:center;padding:2rem;color:#94a3b8">לא נמצאו תוצאות</td></tr>';
+}
+
+function renderCmp(){
+  const q=(document.getElementById('cmp-search').value||'').toLowerCase();
+  let rows=DATA.filter(d=>d.c===F.cc);
+  if(F.cf!=='all') rows=rows.filter(r=>r.f===F.cf);
+  if(q) rows=rows.filter(r=>(r.t+' '+r.f).toLowerCase().includes(q));
+  const sups=['medtechnica','gad','duke','medtronic','getter'];
+  const tb=document.getElementById('cmp-tbody');
+  tb.innerHTML=rows.length?rows.map(r=>{
+    const allU=sups.map(s=>{if(!r.s[s])return null;const p=gp(s,r.c,r.s[s].n);return p?p.u:null;}).filter(v=>v!==null);
+    const mn=allU.length?Math.min(...allU):null,mx=allU.length?Math.max(...allU):null;
+    const saving=mn&&mx&&mx>mn?`<span class="ptag pbest">חיסכון: ${Math.round(((mx-mn)/mx)*100)}%</span>`:'—';
+    return `<tr>
+      <td><span class="fb ${fc(r.f)}">${r.f}</span></td>
+      <td><strong>${r.t}</strong></td>
+      <td style="font-size:0.73rem;color:#64748b">${r.l.join(', ')}</td>
+      ${sups.map(s=>{
+        if(!r.s[s]) return '<td class="pcell nosup">—</td>';
+        const p=gp(s,r.c,r.s[s].n);
+        if(!p) return '<td class="pcell nosup">—</td>';
+        return `<td class="pcell"><span class="ptag ${pcls(p.u,allU)}">${p.d}</span></td>`;
+      }).join('')}
+      <td style="text-align:center">${saving}</td>
+    </tr>`;
+  }).join(''):'<tr><td colspan="9" style="text-align:center;padding:2rem;color:#94a3b8">לא נמצאו תוצאות</td></tr>';
+}
+
+const BCOLORS={'4F':'#6366f1','5F':'#0891b2','6F':'#f59e0b','7F':'#ef4444','8F':'#8b5cf6'};
+function renderInv(){
+  const q=(document.getElementById('inv-search').value||'').toLowerCase();
+  let rows=DATA;
+  if(F.ic!=='all') rows=rows.filter(r=>r.c===F.ic);
+  if(F.if_!=='all') rows=rows.filter(r=>r.f===F.if_);
+  if(q) rows=rows.filter(r=>(r.t+' '+r.f+' '+r.c).toLowerCase().includes(q));
+  const g=document.getElementById('inv-grid');
+  if(!rows.length){g.innerHTML='<div style="text-align:center;padding:3rem;color:#94a3b8;grid-column:1/-1">📦 לא נמצאו פריטים</div>';return;}
+  g.innerHTML=rows.map(r=>{
+    const bc=BCOLORS[r.f]||'#94a3b8';
+    const cat=r.c==='DIAGNOSTIC'?'🔵':'🟠';
+    const srows=Object.entries(r.s).filter(([,v])=>v).map(([k,v])=>`
+      <div class="inv-sup-row">
+        <div style="display:flex;align-items:center;gap:0.32rem">
+          <div class="inv-dot" style="background:${S[k].color}"></div>
+          <span style="color:#64748b;font-size:0.7rem">${S[k].name}</span>
+        </div>
+        <span class="inv-ref">${v.r}</span>
+      </div>`).join('');
+    const mm=r.mn!==null?`<div class="inv-stocks"><span class="inv-chip inv-min">MIN:${r.mn}</span><span class="inv-chip inv-max">MAX:${r.mx}</span></div>`:'';
+    return `<div class="inv-card" style="border-color:${bc}" onclick="showModal(${DATA.indexOf(r)})">
+      <div class="inv-top">
+        <div><div style="font-size:0.65rem;color:#94a3b8;margin-bottom:0.18rem">${cat} ${r.c} · ${r.f}</div><div class="inv-type">${r.t}</div></div>
+        ${mm}
+      </div>
+      <div class="inv-lengths">${r.l.map(x=>`<span class="inv-len">${x}</span>`).join('')}</div>
+      <div class="inv-sups">${srows}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderCat(){
+  const q=(document.getElementById('cat-search').value||'').toLowerCase();
+  let rows=[];
+  DATA.forEach(r=>{
+    Object.entries(r.s).forEach(([k,v])=>{
+      if(!v) return;
+      if(F.cs!=='all'&&k!==F.cs) return;
+      if(F.ccat!=='all'&&r.c!==F.ccat) return;
+      if(q&&!(v.n+' '+v.r+' '+r.t).toLowerCase().includes(q)) return;
+      const p=gp(k,r.c,v.n);
+      rows.push({sup:k,brand:S[k].brand,name:v.n,ref:v.r,cat:r.c,f:r.f,type:r.t,price:p?p.d:'—',pu:p?p.u:0});
+    });
+  });
+  rows.sort((a,b)=>a.sup.localeCompare(b.sup)||a.name.localeCompare(b.name));
+  const tb=document.getElementById('cat-tbody');
+  tb.innerHTML=rows.length?rows.map(r=>`<tr>
+    <td><span style="background:${S[r.sup].bg};color:${S[r.sup].color};padding:0.18rem 0.45rem;border-radius:5px;font-size:0.76rem;font-weight:700">${S[r.sup].name}</span></td>
+    <td style="font-size:0.78rem;color:#64748b">${r.brand}</td>
+    <td style="font-weight:500;font-size:0.82rem">${r.name}</td>
+    <td style="font-family:monospace;font-size:0.78rem;color:#64748b">${r.ref}</td>
+    <td><span style="font-size:0.7rem;background:${r.cat==='DIAGNOSTIC'?'#e0f2fe':'#fef9c3'};color:${r.cat==='DIAGNOSTIC'?'#0369a1':'#854d0e'};padding:0.12rem 0.38rem;border-radius:4px;font-weight:600">${r.cat==='DIAGNOSTIC'?'🔵 Diagnostic':'🟠 Guiding'}</span></td>
+    <td style="font-size:0.75rem;color:#64748b">${r.f} · ${r.type}</td>
+    <td class="center"><span class="ptag pbest">${r.price}</span></td>
+  </tr>`).join(''):'<tr><td colspan="7" style="text-align:center;padding:2rem;color:#94a3b8">לא נמצאו פריטים</td></tr>';
+}
+
+function showModal(idx){
+  const r=DATA[idx];if(!r) return;
+  document.getElementById('m-title').textContent=r.t+' — '+r.f;
+  document.getElementById('m-sub').textContent=(r.c==='DIAGNOSTIC'?'🔵 Angiographic / Diagnostic':'🟠 Guiding')+' · '+r.l.join(' / ');
+  const proc=gproc(r.t);
+  const sups=r.c==='DIAGNOSTIC'?['medtechnica','gad','duke','medtronic','getter']:['medtechnica','gad','duke','medtronic'];
+  const allU=sups.map(k=>{if(!r.s[k])return null;const p=gp(k,r.c,r.s[k].n);return p?p.u:null;});
+  const srows=Object.entries(r.s).map(([k,v])=>{
+    if(!v) return '';
+    const p=gp(k,r.c,v.n);
+    const cls=p?pcls(p.u,allU):'pgood';
+    return `<div class="msup-row" style="border-color:${S[k].color}30;background:${S[k].bg}">
+      <div class="msup-left">
+        <div class="inv-dot" style="background:${S[k].color};width:10px;height:10px;border-radius:50%"></div>
+        <div>
+          <div class="msup-name" style="color:${S[k].color}">${S[k].name} <span style="font-weight:400;font-size:0.72rem;color:#64748b">(${S[k].brand})</span></div>
+          <div class="msup-product">${v.n}</div>
+          <span class="msup-ref">${v.r}</span>
+        </div>
+      </div>
+      <div><span class="ptag ${cls}">${p?p.d:'N/A'}</span></div>
+    </div>`;
+  }).filter(Boolean).join('');
+  const mmHTML=r.mn!==null?`<div class="msec"><h4>📦 רמות מלאי (MINMAX)</h4>
+    <div style="display:flex;gap:0.85rem">
+      <div style="text-align:center;padding:0.5rem 0.9rem;background:#fff7ed;border-radius:8px"><div style="font-size:1.4rem;font-weight:700;color:#c2410c">${r.mn}</div><div style="font-size:0.7rem;color:#94a3b8">מינימום</div></div>
+      <div style="text-align:center;padding:0.5rem 0.9rem;background:#ecfdf5;border-radius:8px"><div style="font-size:1.4rem;font-weight:700;color:#065f46">${r.mx}</div><div style="font-size:0.7rem;color:#94a3b8">מקסימום</div></div>
+      <div style="flex:1;display:flex;align-items:center;font-size:0.78rem;color:#64748b">מחזור הזמנה: 2–3 שבועות</div>
+    </div></div>`:'';
+  document.getElementById('m-body').innerHTML=`
+    ${proc?`<div class="msec"><h4>🩺 שימוש קליני</h4><p style="font-size:0.88rem;color:#334155;line-height:1.55">${proc}</p></div>`:''}
+    ${mmHTML}
+    <div class="msec"><h4>💰 ספקים ומחירים</h4>${srows}</div>
+    <div style="font-size:0.7rem;color:#94a3b8;margin-top:0.7rem;border-top:1px solid #f1f5f9;padding-top:0.6rem">
+      * MEDTRONIC: DXTERITY ₪44≈$12/יח׳ · TRAPEASE ₪64≈$17/יח׳ · LAUNCHER ₪213≈$58/יח׳ · לחץ ESC לסגירה
+    </div>`;
+  document.getElementById('modal-ov').classList.add('open');
+}
+function closeModal(){document.getElementById('modal-ov').classList.remove('open');}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+
+// Dashboard guide tables
+const GUIDE_DIAG=[
+  ['JL / Judkins Left','קטטרציה סטנדרטית כלילית שמאל'],
+  ['JR / Judkins Right','קטטרציה סטנדרטית כלילית ימין'],
+  ['AL / Amplatz Left','כלילית שמאל — אורטה אופקית'],
+  ['AR / Amplatz Right','כלילית ימין — גישה חלופית'],
+  ['PIG / Pigtail','ונטריקולוגרפיה שמאלית, אאורטוגרפיה'],
+  ['FL / TIG Left','גישה רדיאלית — כלילית שמאל'],
+  ['FR / TIG Right','גישה רדיאלית — כלילית ימין'],
+  ['IMA / IM','קטטרציה גשר LIMA (מעקפים)'],
+  ['MPA','רב-תכליתי: גשרים, חדר שמאל'],
+  ['3DRC','כלילית ימנית — אנטומיה מורכבת'],
+  ['VTK / Vertebral','כלים קטנים, גישות ייחודיות (Cook HNB)'],
+  ['SIMMONS 1/2/3','אנטומיה מורכבת, ויסצרלי'],
+  ['H1 / C1 / HNB','Cook Medical — Headhunter, Cobra, Berenstein']
+];
+const GUIDE_GUID=[
+  ['EBU / XB Left','Extra BackUp — תמיכה מוגברת PCI שמאל'],
+  ['XBRCA / XB Right','תמיכה PCI כלילית ימין'],
+  ['JL Guiding','Judkins Left מנחה — PCI שמאל'],
+  ['JR Guiding','Judkins Right מנחה — PCI ימין'],
+  ['AL Guiding','Amplatz Left מנחה — PCI, אורטה אופקית'],
+  ['AR Guiding','Amplatz Right מנחה — PCI ימין'],
+  ['IMA Guiding','גיידינג גשר LIMA / מעקפים'],
+  ['MPA Guiding','גיידינג רב-תכליתי'],
+  ['3DRC Guiding','3D ימין מנחה — אנטומיה מורכבת'],
+  ['BEACON RIM','Medtronic Launcher — גיבוי EBU-type'],
+  ['IKARI L/R','גישה רדיאלית מיוחדת — Terumo HEARTRAIL'],
+  ['BYPASS L/R','קטטרציית גשרים ורידיים']
+];
+document.getElementById('guide-diag-table').innerHTML=GUIDE_DIAG.map(([k,v])=>`<tr style="border-bottom:1px solid #f1f5f9"><td style="padding:0.38rem 0;font-weight:700;color:#334155;width:45%">${k}</td><td style="padding:0.38rem 0;color:#64748b">${v}</td></tr>`).join('');
+document.getElementById('guide-guid-table').innerHTML=GUIDE_GUID.map(([k,v])=>`<tr style="border-bottom:1px solid #f1f5f9"><td style="padding:0.38rem 0;font-weight:700;color:#334155;width:40%">${k}</td><td style="padding:0.38rem 0;color:#64748b">${v}</td></tr>`).join('');
+
+// update dashboard stats
+const diagCount=DATA.filter(d=>d.c==='DIAGNOSTIC').length;
+const guidCount=DATA.filter(d=>d.c==='GUIDING').length;
+document.getElementById('stat-total').textContent=DATA.length;
+document.getElementById('stat-diag').textContent=diagCount;
+document.getElementById('stat-guid').textContent=guidCount;
+</script>
+</body>
+</html>

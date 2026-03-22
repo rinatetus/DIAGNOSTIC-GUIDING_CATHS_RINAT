@@ -1085,7 +1085,24 @@ function showModal(idx){
       <div style="text-align:center;padding:0.5rem 0.9rem;background:#ecfdf5;border-radius:8px"><div style="font-size:1.4rem;font-weight:700;color:#065f46">${r.mx}</div><div style="font-size:0.7rem;color:#94a3b8">מקסימום</div></div>
       <div style="flex:1;display:flex;align-items:center;font-size:0.78rem;color:#64748b">מחזור הזמנה: 2–3 שבועות</div>
     </div></div>`:'';
+  const inCart=CART.find(c=>c.idx===idx);
+  const cartSection=`
+    <div style="background:#f0fdf4;border:2px solid #86efac;border-radius:12px;padding:0.85rem 1rem;margin-bottom:1rem">
+      <div style="font-size:0.82rem;font-weight:700;color:#065f46;margin-bottom:0.55rem">🛒 הוסף להזמנה</div>
+      <div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap">
+        <button onclick="document.getElementById('mq${idx}').stepDown()"
+          style="width:36px;height:36px;border-radius:8px;border:2px solid #86efac;background:white;font-size:1.2rem;font-weight:700;cursor:pointer;color:#065f46">−</button>
+        <input id="mq${idx}" type="number" value="${inCart?inCart.qty:1}" min="1" max="999"
+          style="width:60px;text-align:center;border:2px solid #86efac;border-radius:8px;padding:0.35rem;font-size:1rem;font-weight:700;color:#065f46;font-family:inherit">
+        <button onclick="document.getElementById('mq${idx}').stepUp()"
+          style="width:36px;height:36px;border-radius:8px;border:2px solid #86efac;background:white;font-size:1.2rem;font-weight:700;cursor:pointer;color:#065f46">+</button>
+        <button onclick="addToCartQty(${idx},parseInt(document.getElementById('mq${idx}').value)||1);closeModal()"
+          style="flex:1;min-width:120px;padding:0.5rem 1rem;background:#16a34a;color:white;border:none;border-radius:8px;font-size:0.9rem;font-weight:700;cursor:pointer;font-family:inherit">
+          ${inCart?'✓ עדכן בסל':'+ הוסף לסל'}</button>
+      </div>
+    </div>`;
   document.getElementById('m-body').innerHTML=`
+    ${cartSection}
     ${proc?`<div class="msec"><h4>🩺 שימוש קליני</h4><p style="font-size:0.88rem;color:#334155;line-height:1.55">${proc}</p></div>`:''}
     ${mmHTML}
     <div class="msec"><h4>💰 ספקים ומחירים</h4>${srows}</div>
@@ -1139,6 +1156,18 @@ document.getElementById('stat-guid').textContent=guidCount;
 
 // ===== ORDER CART =====
 const CART=[];
+
+function addToCartQty(idx,qty){
+  const r=DATA[idx];
+  if(!r) return;
+  const existing=CART.find(c=>c.idx===idx);
+  if(existing){existing.qty=qty;}
+  else{CART.push({idx,qty,name:r.t,f:r.f,cat:r.c,lengths:r.l});}
+  updateCartBadge();
+  // flash cart button
+  const btn=document.querySelector('.cart-btn');
+  if(btn){btn.style.transform='scale(1.25)';setTimeout(()=>btn.style.transform='',300);}
+}
 
 function addToCart(idx){
   const r=DATA[idx];

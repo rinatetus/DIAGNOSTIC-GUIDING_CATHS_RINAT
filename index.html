@@ -1114,38 +1114,64 @@ function showModal(idx){
 function closeModal(){document.getElementById('modal-ov').classList.remove('open');}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
 
+// Catheter shape SVG paths (viewBox "0 0 38 56")
+const CATH_SVG={
+  JL:'<path d="M19,2 L19,24 C19,38 7,42 7,48 C7,54 15,56 20,51" stroke-linecap="round" stroke-linejoin="round"/>',
+  JR:'<path d="M19,2 L19,24 C19,38 29,42 29,48 C29,54 22,56 18,51" stroke-linecap="round" stroke-linejoin="round"/>',
+  AL:'<path d="M22,2 L22,20 C22,35 3,39 3,47 C3,54 13,56 19,51" stroke-linecap="round" stroke-linejoin="round"/>',
+  AR:'<path d="M16,2 L16,20 C16,35 33,39 33,47 C33,54 24,56 19,51" stroke-linecap="round" stroke-linejoin="round"/>',
+  PIG:'<path d="M19,2 L19,22 C19,28 27,30 27,38 C27,46 9,46 9,38 C9,30 16,29 19,34" stroke-linecap="round" stroke-linejoin="round"/>',
+  FL:'<path d="M22,2 L22,22 C22,34 13,39 11,48" stroke-linecap="round" stroke-linejoin="round"/>',
+  FR:'<path d="M16,2 L16,22 C16,34 23,39 25,48" stroke-linecap="round" stroke-linejoin="round"/>',
+  IMA:'<path d="M22,2 L22,26 C22,40 11,44 11,50 C11,56 21,56 26,50" stroke-linecap="round" stroke-linejoin="round"/>',
+  MPA:'<path d="M19,2 L19,32 C19,44 28,46 28,52" stroke-linecap="round" stroke-linejoin="round"/>',
+  '3DRC':'<path d="M16,2 L16,22 C16,32 26,36 28,44 C30,50 22,54 18,49" stroke-linecap="round" stroke-linejoin="round"/>',
+  VTK:'<path d="M19,2 C25,11 13,22 17,33 C21,43 14,49 16,54" stroke-linecap="round" stroke-linejoin="round"/>',
+  SIMMONS:'<path d="M20,2 L20,14 C20,24 33,26 33,36 C33,47 18,52 12,43 C7,34 15,26 22,33" stroke-linecap="round" stroke-linejoin="round"/>',
+  H1:'<path d="M19,2 L19,32 C19,43 27,45 27,51 C27,55 22,56 18,53" stroke-linecap="round" stroke-linejoin="round"/>',
+  EBU:'<path d="M20,2 L20,18 C20,32 5,37 5,45 C5,52 16,54 22,48" stroke-linecap="round" stroke-linejoin="round"/>',
+  XBRCA:'<path d="M18,2 L18,18 C18,32 31,37 31,45 C31,52 22,54 18,48" stroke-linecap="round" stroke-linejoin="round"/>',
+  IKARI:'<path d="M19,2 C14,12 26,20 22,31 C18,41 27,45 24,52" stroke-linecap="round" stroke-linejoin="round"/>',
+  BYPASS:'<path d="M22,2 L22,14 C22,29 5,34 5,46 C5,53 15,53 20,48" stroke-linecap="round" stroke-linejoin="round"/>',
+  BEACON:'<path d="M20,2 L20,16 C20,31 4,36 4,45 C4,53 15,53 20,48" stroke-linecap="round" stroke-linejoin="round"/>'
+};
+function svgCath(key,color){
+  const p=CATH_SVG[key];if(!p) return '<svg style="width:32px;height:46px"></svg>';
+  return `<svg viewBox="0 0 38 56" xmlns="http://www.w3.org/2000/svg" style="width:32px;height:46px;display:block;margin:0 auto;flex-shrink:0"><g stroke="${color}" stroke-width="2.8" fill="none">${p}</g></svg>`;
+}
+
 // Dashboard guide tables
 const GUIDE_DIAG=[
-  ['JL / Judkins Left','קטטרציה סטנדרטית כלילית שמאל'],
-  ['JR / Judkins Right','קטטרציה סטנדרטית כלילית ימין'],
-  ['AL / Amplatz Left','כלילית שמאל — אורטה אופקית'],
-  ['AR / Amplatz Right','כלילית ימין — גישה חלופית'],
-  ['PIG / Pigtail','ונטריקולוגרפיה שמאלית, אאורטוגרפיה'],
-  ['FL / TIG Left','גישה רדיאלית — כלילית שמאל'],
-  ['FR / TIG Right','גישה רדיאלית — כלילית ימין'],
-  ['IMA / IM','קטטרציה גשר LIMA (מעקפים)'],
-  ['MPA','רב-תכליתי: גשרים, חדר שמאל'],
-  ['3DRC','כלילית ימנית — אנטומיה מורכבת'],
-  ['VTK / Vertebral','כלים קטנים, גישות ייחודיות (Cook HNB)'],
-  ['SIMMONS 1/2/3','אנטומיה מורכבת, ויסצרלי'],
-  ['H1 / C1 / HNB','Cook Medical — Headhunter, Cobra, Berenstein']
+  ['JL / Judkins Left','קטטרציה סטנדרטית כלילית שמאל','JL'],
+  ['JR / Judkins Right','קטטרציה סטנדרטית כלילית ימין','JR'],
+  ['AL / Amplatz Left','כלילית שמאל — אורטה אופקית','AL'],
+  ['AR / Amplatz Right','כלילית ימין — גישה חלופית','AR'],
+  ['PIG / Pigtail','ונטריקולוגרפיה שמאלית, אאורטוגרפיה','PIG'],
+  ['FL / TIG Left','גישה רדיאלית — כלילית שמאל','FL'],
+  ['FR / TIG Right','גישה רדיאלית — כלילית ימין','FR'],
+  ['IMA / IM','קטטרציה גשר LIMA (מעקפים)','IMA'],
+  ['MPA','רב-תכליתי: גשרים, חדר שמאל','MPA'],
+  ['3DRC','כלילית ימנית — אנטומיה מורכבת','3DRC'],
+  ['VTK / Vertebral','כלים קטנים, גישות ייחודיות (Cook HNB)','VTK'],
+  ['SIMMONS 1/2/3','אנטומיה מורכבת, ויסצרלי','SIMMONS'],
+  ['H1 / C1 / HNB','Cook Medical — Headhunter, Cobra, Berenstein','H1']
 ];
 const GUIDE_GUID=[
-  ['EBU / XB Left','Extra BackUp — תמיכה מוגברת PCI שמאל'],
-  ['XBRCA / XB Right','תמיכה PCI כלילית ימין'],
-  ['JL Guiding','Judkins Left מנחה — PCI שמאל'],
-  ['JR Guiding','Judkins Right מנחה — PCI ימין'],
-  ['AL Guiding','Amplatz Left מנחה — PCI, אורטה אופקית'],
-  ['AR Guiding','Amplatz Right מנחה — PCI ימין'],
-  ['IMA Guiding','גיידינג גשר LIMA / מעקפים'],
-  ['MPA Guiding','גיידינג רב-תכליתי'],
-  ['3DRC Guiding','3D ימין מנחה — אנטומיה מורכבת'],
-  ['BEACON RIM','Medtronic Launcher — גיבוי EBU-type'],
-  ['IKARI L/R','גישה רדיאלית מיוחדת — Terumo HEARTRAIL'],
-  ['BYPASS L/R','קטטרציית גשרים ורידיים']
+  ['EBU / XB Left','Extra BackUp — תמיכה מוגברת PCI שמאל','EBU'],
+  ['XBRCA / XB Right','תמיכה PCI כלילית ימין','XBRCA'],
+  ['JL Guiding','Judkins Left מנחה — PCI שמאל','JL'],
+  ['JR Guiding','Judkins Right מנחה — PCI ימין','JR'],
+  ['AL Guiding','Amplatz Left מנחה — PCI, אורטה אופקית','AL'],
+  ['AR Guiding','Amplatz Right מנחה — PCI ימין','AR'],
+  ['IMA Guiding','גיידינג גשר LIMA / מעקפים','IMA'],
+  ['MPA Guiding','גיידינג רב-תכליתי','MPA'],
+  ['3DRC Guiding','3D ימין מנחה — אנטומיה מורכבת','3DRC'],
+  ['BEACON RIM','Medtronic Launcher — גיבוי EBU-type','BEACON'],
+  ['IKARI L/R','גישה רדיאלית מיוחדת — Terumo HEARTRAIL','IKARI'],
+  ['BYPASS L/R','קטטרציית גשרים ורידיים','BYPASS']
 ];
-document.getElementById('guide-diag-table').innerHTML=GUIDE_DIAG.map(([k,v])=>`<tr style="border-bottom:1px solid #f1f5f9"><td style="padding:0.38rem 0;font-weight:700;color:#334155;width:45%">${k}</td><td style="padding:0.38rem 0;color:#64748b">${v}</td></tr>`).join('');
-document.getElementById('guide-guid-table').innerHTML=GUIDE_GUID.map(([k,v])=>`<tr style="border-bottom:1px solid #f1f5f9"><td style="padding:0.38rem 0;font-weight:700;color:#334155;width:40%">${k}</td><td style="padding:0.38rem 0;color:#64748b">${v}</td></tr>`).join('');
+document.getElementById('guide-diag-table').innerHTML=GUIDE_DIAG.map(([k,v,s])=>`<tr style="border-bottom:1px solid #f1f5f9"><td style="padding:0.3rem 0.2rem;width:40px;vertical-align:middle">${svgCath(s,'#42C6B5')}</td><td style="padding:0.38rem 0.4rem;font-weight:700;color:#334155">${k}</td><td style="padding:0.38rem 0;color:#64748b">${v}</td></tr>`).join('');
+document.getElementById('guide-guid-table').innerHTML=GUIDE_GUID.map(([k,v,s])=>`<tr style="border-bottom:1px solid #f1f5f9"><td style="padding:0.3rem 0.2rem;width:40px;vertical-align:middle">${svgCath(s,'#E84292')}</td><td style="padding:0.38rem 0.4rem;font-weight:700;color:#334155">${k}</td><td style="padding:0.38rem 0;color:#64748b">${v}</td></tr>`).join('');
 
 // update dashboard stats
 const diagCount=DATA.filter(d=>d.c==='DIAGNOSTIC').length;

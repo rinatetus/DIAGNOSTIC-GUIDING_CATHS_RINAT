@@ -97,6 +97,37 @@ td.center{text-align:center}
 .prod-num{font-family:'Consolas',monospace;font-size:0.7rem;font-weight:700;padding:0.13rem 0.5rem;border-radius:5px;flex-shrink:0;letter-spacing:0.02em;border:1px solid transparent}
 .prod-nm{font-size:0.7rem;color:#475569;font-weight:500}
 
+/* ===== ORDER CART ===== */
+.cart-fab{position:fixed;bottom:1.4rem;right:1.4rem;z-index:500}
+.cart-btn{width:58px;height:58px;border-radius:50%;background:var(--primary);border:none;cursor:pointer;box-shadow:0 4px 20px rgba(43,45,127,0.45);display:flex;align-items:center;justify-content:center;transition:transform 0.2s;color:white;font-size:1.5rem;position:relative}
+.cart-btn:hover{transform:scale(1.1)}
+.cart-badge{position:absolute;top:-4px;right:-4px;background:#ef4444;color:white;border-radius:50%;width:20px;height:20px;font-size:0.65rem;font-weight:700;display:flex;align-items:center;justify-content:center;display:none}
+.add-btn{background:none;border:1.5px solid #e2e8f0;color:#64748b;border-radius:6px;width:26px;height:26px;cursor:pointer;font-size:1rem;font-weight:700;display:flex;align-items:center;justify-content:center;transition:all 0.15s;flex-shrink:0}
+.add-btn:hover{background:var(--primary);border-color:var(--primary);color:white}
+.add-btn.in-cart{background:#d1fae5;border-color:#10b981;color:#065f46}
+.cart-panel{position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:300;display:none;align-items:flex-end;justify-content:flex-end;padding:1rem}
+.cart-panel.open{display:flex}
+.cart-box{background:white;border-radius:16px;width:100%;max-width:460px;max-height:88vh;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,0.25)}
+.cart-head{padding:1rem 1.2rem;border-bottom:1px solid #f1f5f9;display:flex;align-items:center;justify-content:space-between}
+.cart-head h2{font-size:1rem;font-weight:700;color:var(--primary)}
+.cart-body{flex:1;overflow-y:auto;padding:0.85rem 1.2rem}
+.cart-item{display:flex;align-items:center;gap:0.65rem;padding:0.6rem 0;border-bottom:1px solid #f8fafc}
+.cart-item-info{flex:1;min-width:0}
+.cart-item-name{font-size:0.82rem;font-weight:600;color:#1e293b}
+.cart-item-sub{font-size:0.7rem;color:#64748b;margin-top:0.12rem}
+.qty-ctrl{display:flex;align-items:center;gap:0.3rem;flex-shrink:0}
+.qty-btn{width:24px;height:24px;border-radius:5px;border:1.5px solid #e2e8f0;background:white;cursor:pointer;font-size:0.9rem;font-weight:700;color:#334155;display:flex;align-items:center;justify-content:center;transition:background 0.15s}
+.qty-btn:hover{background:#f1f5f9}
+.qty-num{width:32px;text-align:center;font-size:0.85rem;font-weight:700;color:#1e293b}
+.cart-del{background:none;border:none;color:#d1d5db;cursor:pointer;font-size:1rem;padding:0.15rem;transition:color 0.15s}
+.cart-del:hover{color:#ef4444}
+.cart-notes{width:100%;padding:0.55rem 0.75rem;border:1.5px solid #e2e8f0;border-radius:8px;font-size:0.82rem;font-family:inherit;resize:none;outline:none;direction:rtl;margin-top:0.5rem}
+.cart-notes:focus{border-color:var(--secondary)}
+.cart-foot{padding:0.85rem 1.2rem;border-top:1px solid #f1f5f9;display:flex;flex-direction:column;gap:0.55rem}
+.wa-send-btn{width:100%;padding:0.75rem;background:#25D366;color:white;border:none;border-radius:10px;font-size:0.9rem;font-weight:700;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:0.5rem;transition:background 0.2s}
+.wa-send-btn:hover{background:#1da851}
+.cart-clear{background:none;border:none;color:#94a3b8;font-size:0.75rem;cursor:pointer;font-family:inherit;text-decoration:underline}
+
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:200;display:none;align-items:center;justify-content:center;padding:1rem}
 .modal-overlay.open{display:flex}
 .modal{background:white;border-radius:14px;padding:1.65rem;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.3);position:relative;max-height:88vh;overflow-y:auto}
@@ -415,6 +446,7 @@ td.center{text-align:center}
       <th class="center" style="background:linear-gradient(135deg,#0e7490,#0891b2)">MEDTRONIC<br><small style="font-weight:400;opacity:0.85">Medinol</small></th>
       <th class="center" style="background:linear-gradient(135deg,#15803d,#16a34a)">GETTER<br><small style="font-weight:400;opacity:0.85">Cook Medical</small></th>
       <th>פרוצדורה</th>
+      <th class="center" style="background:linear-gradient(135deg,#064e3b,#065f46);width:40px">🛒</th>
     </tr></thead><tbody id="diag-tbody"></tbody></table>
   </div>
 </div>
@@ -465,6 +497,7 @@ td.center{text-align:center}
       <th class="center" style="background:linear-gradient(135deg,#c2410c,#ea580c)">DUKE<br><small style="font-weight:400;opacity:0.85">Cordis Vista/GC</small></th>
       <th class="center" style="background:linear-gradient(135deg,#0e7490,#0891b2)">MEDTRONIC<br><small style="font-weight:400;opacity:0.85">Launcher</small></th>
       <th>פרוצדורה</th>
+      <th class="center" style="background:linear-gradient(135deg,#064e3b,#065f46);width:40px">🛒</th>
     </tr></thead><tbody id="guid-tbody"></tbody></table>
   </div>
 </div>
@@ -553,6 +586,37 @@ td.center{text-align:center}
 </div>
 
 </main>
+
+<!-- CART FLOATING BUTTON -->
+<div class="cart-fab">
+  <button class="cart-btn" onclick="openCart()" title="סל הזמנות">
+    🛒
+    <span class="cart-badge" id="cart-badge">0</span>
+  </button>
+</div>
+
+<!-- CART PANEL -->
+<div class="cart-panel" id="cart-panel" onclick="if(event.target===this)closeCart()">
+  <div class="cart-box">
+    <div class="cart-head">
+      <h2>🛒 סל הזמנות</h2>
+      <button onclick="closeCart()" style="background:#f1f5f9;border:none;width:30px;height:30px;border-radius:7px;cursor:pointer;font-size:0.95rem">✕</button>
+    </div>
+    <div class="cart-body" id="cart-body">
+      <div style="text-align:center;padding:2rem;color:#94a3b8;font-size:0.85rem">
+        📋 הסל ריק — לחץ + על קטטר כדי להוסיף
+      </div>
+    </div>
+    <div class="cart-foot">
+      <textarea class="cart-notes" id="cart-notes" rows="2" placeholder="הערות להזמנה (אופציונלי)..."></textarea>
+      <button class="wa-send-btn" onclick="sendOrderWA()">
+        <svg width="20" height="20" viewBox="0 0 32 32" fill="none"><path d="M23.5 8.5C21.7 6.7 19.3 5.7 16.7 5.7c-5.3 0-9.6 4.3-9.6 9.6 0 1.7.4 3.3 1.3 4.7L7 26.3l6.4-1.7c1.4.8 2.9 1.2 4.4 1.2 5.3 0 9.6-4.3 9.6-9.6-.1-2.6-1.1-5-2.9-6.7zm-6.8 14.8c-1.4 0-2.8-.4-4-1.1l-.3-.2-3.1.8.8-3-.2-.3c-.8-1.2-1.2-2.7-1.2-4.2 0-4.3 3.5-7.8 7.8-7.8 2.1 0 4 .8 5.5 2.3 1.5 1.5 2.3 3.4 2.3 5.5 0 4.3-3.5 7.8-7.8 7.8zm4.3-5.8c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.7.8-.8 1-.2.2-.3.2-.6.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.1.2-.3.2-.4 0-.2 0-.3-.1-.5-.1-.2-.5-1.3-.7-1.7-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.3.2-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.8.6.3 1.1.4 1.5.5.6.2 1.2.1 1.6-.1.5-.3 1.4-1.3 1.6-1.9.2-.7.2-1.2.1-1.3-.2-.1-.3-.2-.5-.3z" fill="white"/></svg>
+        שלח הזמנה ב-WhatsApp לרינת
+      </button>
+      <button class="cart-clear" onclick="clearCart()">נקה סל</button>
+    </div>
+  </div>
+</div>
 
 <!-- WHATSAPP FLOATING BUTTON -->
 <div id="wa-fab" style="position:fixed;bottom:1.4rem;left:1.4rem;z-index:500;display:flex;flex-direction:column;align-items:flex-end;gap:0.5rem">
@@ -865,15 +929,16 @@ function renderDiag(){
   document.getElementById('diag-count').textContent=rows.length+' פריטים';
   const sups=['medtechnica','gad','duke','medtronic','getter'];
   const tb=document.getElementById('diag-tbody');
-  tb.innerHTML=rows.length?rows.map(r=>`
-    <tr class="${fclass(r.f)}" onclick="showModal(${DATA.indexOf(r)})">
+  tb.innerHTML=rows.length?rows.map(r=>{const idx=DATA.indexOf(r);return`
+    <tr class="${fclass(r.f)}" onclick="showModal(${idx})">
       <td><span class="fb ${fc(r.f)}">${r.f}</span></td>
       <td><span class="tbadge">${r.t}</span></td>
       <td style="font-size:0.75rem;color:#64748b">${r.l.join(', ')}</td>
       ${mmCell(r)}
       ${sups.map(s=>mkPC(s,r,sups)).join('')}
       <td style="font-size:0.71rem;color:#64748b;max-width:150px;line-height:1.4">${gproc(r.t)}</td>
-    </tr>`).join(''):'<tr><td colspan="10" style="text-align:center;padding:2rem;color:#94a3b8">לא נמצאו תוצאות</td></tr>';
+      <td class="center" onclick="event.stopPropagation()"><button class="add-btn" data-idx="${idx}" onclick="addToCart(${idx})" title="הוסף להזמנה">+</button></td>
+    </tr>`}).join(''):'<tr><td colspan="11" style="text-align:center;padding:2rem;color:#94a3b8">לא נמצאו תוצאות</td></tr>';
 }
 
 function renderGuid(){
@@ -895,15 +960,16 @@ function renderGuid(){
   document.getElementById('guid-count').textContent=rows.length+' פריטים';
   const sups=['medtechnica','gad','duke','medtronic'];
   const tb=document.getElementById('guid-tbody');
-  tb.innerHTML=rows.length?rows.map(r=>`
-    <tr class="${fclass(r.f)}" onclick="showModal(${DATA.indexOf(r)})">
+  tb.innerHTML=rows.length?rows.map(r=>{const idx=DATA.indexOf(r);return`
+    <tr class="${fclass(r.f)}" onclick="showModal(${idx})">
       <td><span class="fb ${fc(r.f)}">${r.f}</span></td>
       <td><span class="tbadge">${r.t}</span></td>
       <td style="font-size:0.75rem;color:#64748b">${r.l.join(', ')}</td>
       ${mmCell(r)}
       ${sups.map(s=>mkPC(s,r,sups)).join('')}
       <td style="font-size:0.71rem;color:#64748b;max-width:150px;line-height:1.4">${gproc(r.t)}</td>
-    </tr>`).join(''):'<tr><td colspan="9" style="text-align:center;padding:2rem;color:#94a3b8">לא נמצאו תוצאות</td></tr>';
+      <td class="center" onclick="event.stopPropagation()"><button class="add-btn" data-idx="${idx}" onclick="addToCart(${idx})" title="הוסף להזמנה">+</button></td>
+    </tr>`}).join(''):'<tr><td colspan="10" style="text-align:center;padding:2rem;color:#94a3b8">לא נמצאו תוצאות</td></tr>';
 }
 
 function renderCmp(){
@@ -1070,6 +1136,101 @@ const guidCount=DATA.filter(d=>d.c==='GUIDING').length;
 document.getElementById('stat-total').textContent=DATA.length;
 document.getElementById('stat-diag').textContent=diagCount;
 document.getElementById('stat-guid').textContent=guidCount;
+
+// ===== ORDER CART =====
+const CART=[];
+
+function addToCart(idx){
+  const r=DATA[idx];
+  if(!r) return;
+  const existing=CART.find(c=>c.idx===idx);
+  if(existing){existing.qty+=1;}
+  else{CART.push({idx,qty:1,name:r.t,f:r.f,cat:r.c,lengths:r.l});}
+  updateCartBadge();
+  // flash feedback on the button
+  document.querySelectorAll('.add-btn[data-idx="'+idx+'"]').forEach(b=>{
+    b.classList.add('in-cart');
+    b.textContent='✓';
+    setTimeout(()=>{b.textContent='+';},900);
+  });
+}
+
+function updateCartBadge(){
+  const total=CART.reduce((s,c)=>s+c.qty,0);
+  const badge=document.getElementById('cart-badge');
+  badge.textContent=total;
+  badge.style.display=total>0?'flex':'none';
+}
+
+function openCart(){
+  renderCartBody();
+  document.getElementById('cart-panel').classList.add('open');
+}
+function closeCart(){
+  document.getElementById('cart-panel').classList.remove('open');
+}
+
+function renderCartBody(){
+  const body=document.getElementById('cart-body');
+  if(!CART.length){
+    body.innerHTML='<div style="text-align:center;padding:2rem;color:#94a3b8;font-size:0.85rem">📋 הסל ריק — לחץ + על קטטר כדי להוסיף</div>';
+    return;
+  }
+  body.innerHTML=CART.map((c,i)=>{
+    const catLabel=c.cat==='DIAGNOSTIC'?'🔵 Diagnostic':'🟠 Guiding';
+    return `<div class="cart-item">
+      <div class="cart-item-info">
+        <div class="cart-item-name">${c.f} ${c.name}</div>
+        <div class="cart-item-sub">${catLabel} · ${c.lengths.join(' / ')}</div>
+      </div>
+      <div class="qty-ctrl">
+        <button class="qty-btn" onclick="changeQty(${i},-1)">−</button>
+        <span class="qty-num">${c.qty}</span>
+        <button class="qty-btn" onclick="changeQty(${i},1)">+</button>
+      </div>
+      <button class="cart-del" onclick="removeFromCart(${i})" title="הסר">🗑</button>
+    </div>`;
+  }).join('');
+}
+
+function changeQty(i,delta){
+  CART[i].qty=Math.max(1,CART[i].qty+delta);
+  renderCartBody();
+  updateCartBadge();
+}
+
+function removeFromCart(i){
+  CART.splice(i,1);
+  renderCartBody();
+  updateCartBadge();
+}
+
+function clearCart(){
+  CART.length=0;
+  renderCartBody();
+  updateCartBadge();
+  document.getElementById('cart-notes').value='';
+}
+
+function sendOrderWA(){
+  if(!CART.length){alert('הסל ריק!');return;}
+  const now=new Date();
+  const date=now.toLocaleDateString('he-IL');
+  const time=now.toLocaleTimeString('he-IL',{hour:'2-digit',minute:'2-digit'});
+  const notes=document.getElementById('cart-notes').value.trim();
+  let msg='🏥 *הזמנת קטטרים — שיבא תל השומר*\n';
+  msg+='📅 '+date+' | '+time+'\n';
+  msg+='─────────────────────\n';
+  CART.forEach((c,i)=>{
+    const cat=c.cat==='DIAGNOSTIC'?'אבחנתי':'מנחה';
+    msg+=`${i+1}. *${c.f} ${c.name}*\n   ${cat} | כמות: *${c.qty} יח׳*\n`;
+  });
+  msg+='─────────────────────\n';
+  if(notes) msg+='💬 הערות: '+notes+'\n';
+  msg+='📲 נשלח מפורטל הקטטרים';
+  const url='https://wa.me/972547265532?text='+encodeURIComponent(msg);
+  window.open(url,'_blank');
+}
 </script>
 </body>
 </html>

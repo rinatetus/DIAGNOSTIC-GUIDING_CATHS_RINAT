@@ -1,0 +1,5443 @@
+{
+  "medtechnica": [
+    {
+      "mazor": "11094394",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 3.5FR",
+      "ref": "H74934356010",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094395",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 FR4",
+      "ref": "H74934356020",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094396",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 FL3.0",
+      "ref": "H74934356050",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094397",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 FL3.5",
+      "ref": "H74934356060",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094398",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 FL4",
+      "ref": "H74934356070",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094399",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 AL1",
+      "ref": "H74934356190",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094400",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 ART3",
+      "ref": "H749343564960",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094401",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 ART3.5",
+      "ref": "H749343564980",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094402",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 ART4",
+      "ref": "H749343565000",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094403",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 ART4.5",
+      "ref": "H749343565020",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094404",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 ML 3.0",
+      "ref": "H749343565360",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094405",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 ML 3.5",
+      "ref": "H749343565370",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094406",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 ML 4.0",
+      "ref": "H749343565380",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094407",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 MR 3.0",
+      "ref": "H749343565460",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094408",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 CLS 3.0",
+      "ref": "H749343565730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094409",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 CLS 3.5",
+      "ref": "H749343565740",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094410",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 KIMNY",
+      "ref": "H749343565830",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094411",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 KL 4.0",
+      "ref": "H749343566120",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094412",
+      "desc": "CATH. GUIDE MODEL 6F MACH 1 KL 5.0",
+      "ref": "H749343566130",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094413",
+      "desc": "CATH. GUIDE MODEL 7F MACH 1 ART3",
+      "ref": "H749343574960",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094414",
+      "desc": "CATH. GUIDE MODEL 7F MACH 1 ART3.5",
+      "ref": "H749343574980",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094415",
+      "desc": "CATH. GUIDE MODEL 7F MACH 1 CLS3",
+      "ref": "H749343575730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094416",
+      "desc": "CATH. GUIDE MODEL 7F MACH 1 CLS3.5",
+      "ref": "H749343575740",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094417",
+      "desc": "CATH. GUIDE MODEL 7F MACH 1 KL4",
+      "ref": "H749343576120",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11094418",
+      "desc": "CATH. GUIDE MODEL 7F MACH 1 KL5",
+      "ref": "H749343576130",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096691",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356030",
+      "ref": "H74934356030",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096692",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356080",
+      "ref": "H74934356080",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096693",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356090",
+      "ref": "H74934356090",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096694",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356100",
+      "ref": "H74934356100",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096695",
+      "desc": "CATH. GUIDE MACH 1 6F H749343561260",
+      "ref": "H749343561260",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096696",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358010",
+      "ref": "H74934358010",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096697",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358020",
+      "ref": "H74934358020",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096698",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358030",
+      "ref": "H74934358030",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096699",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358040",
+      "ref": "H74934358040",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096700",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358050",
+      "ref": "H74934358050",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096701",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358060",
+      "ref": "H74934358060",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096702",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358070",
+      "ref": "H74934358070",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096703",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358080",
+      "ref": "H74934358080",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096704",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358090",
+      "ref": "H74934358090",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096705",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358100",
+      "ref": "H74934358100",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096706",
+      "desc": "CATH. GUIDE MACH 1 8F H749343581030",
+      "ref": "H749343581030",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096707",
+      "desc": "CATH. GUIDE MACH 1 8F H749343581040",
+      "ref": "H749343581040",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096708",
+      "desc": "CATH. GUIDE MACH 1 8F H749343581050",
+      "ref": "H749343581050",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096709",
+      "desc": "CATH. GUIDE MACH 1 8F H749343581080",
+      "ref": "H749343581080",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096710",
+      "desc": "CATH. GUIDE MACH 1 8F H749343581140",
+      "ref": "H749343581140",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096711",
+      "desc": "CATH. GUIDE MACH 1 8F H749343581220",
+      "ref": "H749343581220",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096712",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358170",
+      "ref": "H74934358170",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096713",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358180",
+      "ref": "H74934358180",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096714",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358190",
+      "ref": "H74934358190",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096715",
+      "desc": "CATH. GUIDE MACH 1 8F H749343581910",
+      "ref": "H749343581910",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096716",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358200",
+      "ref": "H74934358200",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096717",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582000",
+      "ref": "H749343582000",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096718",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582020",
+      "ref": "H749343582020",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096719",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358210",
+      "ref": "H74934358210",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096720",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358220",
+      "ref": "H74934358220",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096721",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582300",
+      "ref": "H749343582300",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096722",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582310",
+      "ref": "H749343582310",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096723",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358240",
+      "ref": "H74934358240",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096724",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358250",
+      "ref": "H74934358250",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096725",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358260",
+      "ref": "H74934358260",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096726",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582720",
+      "ref": "H749343582720",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096727",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582730",
+      "ref": "H749343582730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096728",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358280",
+      "ref": "H74934358280",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096729",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358290",
+      "ref": "H74934358290",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096730",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582930",
+      "ref": "H749343582930",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096731",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582940",
+      "ref": "H749343582940",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096732",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582950",
+      "ref": "H749343582950",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096733",
+      "desc": "CATH. GUIDE MACH 1 8F H749343582960",
+      "ref": "H749343582960",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096734",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358300",
+      "ref": "H74934358300",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096735",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358310",
+      "ref": "H74934358310",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096736",
+      "desc": "CATH. GUIDE MACH 1 8F H749343583720",
+      "ref": "H749343583720",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096737",
+      "desc": "CATH. GUIDE MACH 1 8F H749343583760",
+      "ref": "H749343583760",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096738",
+      "desc": "CATH. GUIDE MACH 1 8F H749343583770",
+      "ref": "H749343583770",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096739",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358380",
+      "ref": "H74934358380",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096740",
+      "desc": "CATH. GUIDE MACH 1 8F H749343583800",
+      "ref": "H749343583800",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096741",
+      "desc": "CATH. GUIDE MACH 1 8F H749343583820",
+      "ref": "H749343583820",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096742",
+      "desc": "CATH. GUIDE MACH 1 8F H749343583830",
+      "ref": "H749343583830",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096743",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358390",
+      "ref": "H74934358390",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096744",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358410",
+      "ref": "H74934358410",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096745",
+      "desc": "CATH. GUIDE MACH 1 8F H749343584420",
+      "ref": "H749343584420",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096746",
+      "desc": "CATH. GUIDE MACH 1 8F H749343584460",
+      "ref": "H749343584460",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096747",
+      "desc": "CATH. GUIDE MACH 1 8F H749343584480",
+      "ref": "H749343584480",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096748",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358460",
+      "ref": "H74934358460",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096749",
+      "desc": "CATH. GUIDE MACH 1 8F H749343584960",
+      "ref": "H749343584960",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096750",
+      "desc": "CATH. GUIDE MACH 1 8F H749343584980",
+      "ref": "H749343584980",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096751",
+      "desc": "CATH. GUIDE MACH 1 8F H749343585000",
+      "ref": "H749343585000",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096752",
+      "desc": "CATH. GUIDE MACH 1 8F H749343585020",
+      "ref": "H749343585020",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096753",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358510",
+      "ref": "H74934358510",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096754",
+      "desc": "CATH. GUIDE MACH 1 8F H749343585140",
+      "ref": "H749343585140",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096755",
+      "desc": "CATH. GUIDE MACH 1 8F H749343585730",
+      "ref": "H749343585730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096756",
+      "desc": "CATH. GUIDE MACH 1 8F H749343585740",
+      "ref": "H749343585740",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096757",
+      "desc": "CATH. GUIDE MACH 1 8F H749343585750",
+      "ref": "H749343585750",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096758",
+      "desc": "CATH. GUIDE MACH 1 8F H749343585760",
+      "ref": "H749343585760",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096759",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586110",
+      "ref": "H749343586110",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096760",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586120",
+      "ref": "H749343586120",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096761",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586130",
+      "ref": "H749343586130",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096762",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586140",
+      "ref": "H749343586140",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096763",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586150",
+      "ref": "H749343586150",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096764",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586480",
+      "ref": "H749343586480",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096765",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586490",
+      "ref": "H749343586490",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096766",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586500",
+      "ref": "H749343586500",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096767",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586540",
+      "ref": "H749343586540",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096768",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586550",
+      "ref": "H749343586550",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096769",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586600",
+      "ref": "H749343586600",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096770",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586610",
+      "ref": "H749343586610",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096771",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586620",
+      "ref": "H749343586620",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096772",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586630",
+      "ref": "H749343586630",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096773",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586640",
+      "ref": "H749343586640",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096774",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586650",
+      "ref": "H749343586650",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096775",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586730",
+      "ref": "H749343586730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096776",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586740",
+      "ref": "H749343586740",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096777",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586750",
+      "ref": "H749343586750",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096778",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586760",
+      "ref": "H749343586760",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096779",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586790",
+      "ref": "H749343586790",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096780",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586840",
+      "ref": "H749343586840",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096781",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586850",
+      "ref": "H749343586850",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096782",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586860",
+      "ref": "H749343586860",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096783",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586870",
+      "ref": "H749343586870",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096784",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586880",
+      "ref": "H749343586880",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096785",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586890",
+      "ref": "H749343586890",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096786",
+      "desc": "CATH. GUIDE MACH 1 8F H749343586980",
+      "ref": "H749343586980",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096787",
+      "desc": "CATH. GUIDE MACH 1 8F H749343587080",
+      "ref": "H749343587080",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096788",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358710",
+      "ref": "H74934358710",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096789",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358720",
+      "ref": "H74934358720",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096790",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358730",
+      "ref": "H74934358730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096791",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358740",
+      "ref": "H74934358740",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096792",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358750",
+      "ref": "H74934358750",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096793",
+      "desc": "CATH. GUIDE MACH 1 8F H74934358850",
+      "ref": "H74934358850",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096801",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356170",
+      "ref": "H74934356170",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096802",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356180",
+      "ref": "H74934356180",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096803",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356240",
+      "ref": "H74934356240",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096804",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356250",
+      "ref": "H74934356250",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096805",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356260",
+      "ref": "H74934356260",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096806",
+      "desc": "CATH. GUIDE MACH 1 6F H749343562930",
+      "ref": "H749343562930",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096807",
+      "desc": "CATH. GUIDE MACH 1 6F H749343562940",
+      "ref": "H749343562940",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096808",
+      "desc": "CATH. GUIDE MACH 1 6F H749343562950",
+      "ref": "H749343562950",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096809",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356390",
+      "ref": "H74934356390",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096810",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356410",
+      "ref": "H74934356410",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096811",
+      "desc": "CATH. GUIDE MACH 1 6F H749343565750",
+      "ref": "H749343565750",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096812",
+      "desc": "CATH. GUIDE MACH 1 6F H749343566110",
+      "ref": "H749343566110",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096813",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356710",
+      "ref": "H74934356710",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096814",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356720",
+      "ref": "H74934356720",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096815",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356730",
+      "ref": "H74934356730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096816",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356740",
+      "ref": "H74934356740",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096817",
+      "desc": "CATH. GUIDE MACH 1 6F H74934356740",
+      "ref": "H74934357020",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096818",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357020",
+      "ref": "H74934357030",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096819",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357030",
+      "ref": "H74934357040",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096820",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357040",
+      "ref": "H74934357050",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096821",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357060",
+      "ref": "H74934357060",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096822",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357070",
+      "ref": "H74934357070",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096823",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357080",
+      "ref": "H74934357080",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096824",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357090",
+      "ref": "H74934357090",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096825",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357100",
+      "ref": "H74934357100",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096826",
+      "desc": "CATH. GUIDE MACH 1 7F H749343571030",
+      "ref": "H749343571030",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096827",
+      "desc": "CATH. GUIDE MACH 1 7F H749343571040",
+      "ref": "H749343571040",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096828",
+      "desc": "CATH. GUIDE MACH 1 7F H749343571050",
+      "ref": "H749343571050",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096829",
+      "desc": "CATH. GUIDE MACH 1 7F H749343571080",
+      "ref": "H749343571080",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096830",
+      "desc": "CATH. GUIDE MACH 1 7F H749343571220",
+      "ref": "H749343571220",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096831",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357170",
+      "ref": "H74934357170",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096832",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357180",
+      "ref": "H74934357180",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096833",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357190",
+      "ref": "H74934357190",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096834",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357200",
+      "ref": "H74934357200",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096835",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357210",
+      "ref": "H74934357210",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096836",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357220",
+      "ref": "H74934357220",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096837",
+      "desc": "CATH. GUIDE MACH 1 7F H749343572300",
+      "ref": "H749343572300",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096838",
+      "desc": "CATH. GUIDE MACH 1 7F H749343572310",
+      "ref": "H749343572310",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096839",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357240",
+      "ref": "H74934357240",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096840",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357250",
+      "ref": "H74934357250",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096841",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357260",
+      "ref": "H74934357260",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096842",
+      "desc": "CATH. GUIDE MACH 1 7F H749343572720",
+      "ref": "H749343572720",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096843",
+      "desc": "CATH. GUIDE MACH 1 7F H749343572730",
+      "ref": "H749343572730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096844",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357280",
+      "ref": "H74934357280",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096845",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357290",
+      "ref": "H74934357290",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096846",
+      "desc": "CATH. GUIDE MACH 1 7F H749343572930",
+      "ref": "H749343572930",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096847",
+      "desc": "CATH. GUIDE MACH 1 7F H749343572940",
+      "ref": "H749343572940",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096848",
+      "desc": "CATH. GUIDE MACH 1 7F H749343572950",
+      "ref": "H749343572950",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096849",
+      "desc": "CATH. GUIDE MACH 1 7F H749343572960",
+      "ref": "H749343572960",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096850",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357300",
+      "ref": "H74934357300",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096851",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357310",
+      "ref": "H74934357310",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096852",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357380",
+      "ref": "H74934357380",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096853",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357390",
+      "ref": "H74934357390",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096854",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357400",
+      "ref": "H74934357400",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096855",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357410",
+      "ref": "H74934357410",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096856",
+      "desc": "CATH. GUIDE MACH 1 7F H749343574420",
+      "ref": "H749343574420",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096857",
+      "desc": "CATH. GUIDE MACH 1 7F H749343574460",
+      "ref": "H749343574460",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096858",
+      "desc": "CATH. GUIDE MACH 1 7F H749343574480",
+      "ref": "H749343574480",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096859",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357460",
+      "ref": "H74934357460",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096860",
+      "desc": "CATH. GUIDE MACH 1 7F H749343575000",
+      "ref": "H749343575000",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096861",
+      "desc": "CATH. GUIDE MACH 1 7F H749343575020",
+      "ref": "H749343575020",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096862",
+      "desc": "CATH. GUIDE MACH 1 7F H749343575140",
+      "ref": "H749343575140",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096863",
+      "desc": "CATH. GUIDE MACH 1 7F H749343575750",
+      "ref": "H749343575750",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096864",
+      "desc": "CATH. GUIDE MACH 1 7F H749343575760",
+      "ref": "H749343575760",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096865",
+      "desc": "CATH. GUIDE MACH 1 7F H749343575830",
+      "ref": "H749343575830",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096866",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576110",
+      "ref": "H749343576110",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096867",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576380",
+      "ref": "H749343576380",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096868",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576480",
+      "ref": "H749343576480",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096869",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576490",
+      "ref": "H749343576490",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096870",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576500",
+      "ref": "H749343576500",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096871",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576540",
+      "ref": "H749343576540",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096909",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576550",
+      "ref": "H749343576550",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096910",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576560",
+      "ref": "H749343576560",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096911",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576600",
+      "ref": "H749343576600",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096912",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576610",
+      "ref": "H749343576610",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096913",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576620",
+      "ref": "H749343576620",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096914",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576630",
+      "ref": "H749343576630",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096915",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576640",
+      "ref": "H749343576640",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096916",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576650",
+      "ref": "H749343576650",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096917",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576730",
+      "ref": "H749343576730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096918",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576740",
+      "ref": "H749343576740",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096919",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576760",
+      "ref": "H749343576760",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096920",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576840",
+      "ref": "H749343576840",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096921",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576850",
+      "ref": "H749343576850",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096922",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576860",
+      "ref": "H749343576860",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096923",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576870",
+      "ref": "H749343576870",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096924",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576880",
+      "ref": "H749343576880",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096925",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576890",
+      "ref": "H749343576890",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096926",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576970",
+      "ref": "H749343576970",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096927",
+      "desc": "CATH. GUIDE MACH 1 7F H749343576980",
+      "ref": "H749343576980",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096928",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357710",
+      "ref": "H74934357710",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096929",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357720",
+      "ref": "H74934357720",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096930",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357730",
+      "ref": "H74934357730",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096931",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357740",
+      "ref": "H74934357740",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096932",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357750",
+      "ref": "H74934357750",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096933",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357850",
+      "ref": "H74934357850",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096934",
+      "desc": "CATH. GUIDE MACH 1 7F H74934357890",
+      "ref": "H74934357890",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096999",
+      "desc": "CATH. GUIDE 6F AL.75 MACH1 H749343562",
+      "ref": "H74934356220",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11098520",
+      "desc": "CATH. GUIDE MACH 1 6F JR4 H7493435668",
+      "ref": "H749343566860",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11099148",
+      "desc": "CATH. GUIDE MACH 1 6F AL2 H7493435620",
+      "ref": "H74934356200",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11099637",
+      "desc": "CATH. GUIDING MACH 1 6F H749343565760",
+      "ref": "H749343565760",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11104234",
+      "desc": "CATH. GUIDE MACH 1 H749343566600",
+      "ref": "H749343566600",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11104235",
+      "desc": "CATH. GUIDE MACH 1 H749343566610",
+      "ref": "H749343566610",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11104236",
+      "desc": "CATH. GUIDE MACH 1 H749343566620",
+      "ref": "H749343566620",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11104237",
+      "desc": "CATH. GUIDE MACH 1 H749343566850",
+      "ref": "H749343566850",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11104238",
+      "desc": "CATH. GUIDE MACH 1 H749343566870",
+      "ref": "H749343566870",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11023372",
+      "desc": "CATH. GUIDING MACH 1 H749343564720",
+      "ref": "H749343564720",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11057105",
+      "desc": "CATH. GUIDE MACH MP1 6F H74934356380",
+      "ref": "H74934356380",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11076683",
+      "desc": "CATH. GUIDING MACH 1 6F H749343566920",
+      "ref": "H749343566920",
+      "prod": "10000543",
+      "series": "MACH 1",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11097337",
+      "desc": "CATH. ANGIO IMPU. 5F FR3.5 H74916391012",
+      "ref": "H74916391012",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097338",
+      "desc": "CATH. ANGIO IMPU. 5F FR4 H74916391022",
+      "ref": "H74916391022",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097339",
+      "desc": "CATH. ANGIO IMPU. 5F AR MOD H74916391892",
+      "ref": "H74916391892",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097340",
+      "desc": "CATH. ANGIO IMPU. 5F AL1 H74916391962",
+      "ref": "H74916391962",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097341",
+      "desc": "CATH. ANGIO IMPU. 5F AL2 H74916391982",
+      "ref": "H74916391982",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097348",
+      "desc": "CATH. ANGIO IMPU. 5F FR5 H74916391032",
+      "ref": "H74916391032",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097349",
+      "desc": "CATH. ANGIO IMPU. 5F FR6 H74916391042",
+      "ref": "H74916391042",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097350",
+      "desc": "CATH. ANGIO IMPU.5F FR4 MOD H74916391052",
+      "ref": "H74916391052",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097351",
+      "desc": "CATH. ANGIO IMPU. 5F AL3 H749163911002",
+      "ref": "H749163911002",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097352",
+      "desc": "CATH. ANGIO IMPU. 5F MPA1 H749163911172",
+      "ref": "H749163911172",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097353",
+      "desc": "CATH. ANGIO IMPU. 5F MPA2 H749163911212",
+      "ref": "H749163911212",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097354",
+      "desc": "CATH. ANGIO IMPU. 5F MPA2 H749163911222",
+      "ref": "H749163911222",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097355",
+      "desc": "CATH. ANGIO IMPU. 5F MPB1 H749163911422",
+      "ref": "H749163911422",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097356",
+      "desc": "CATH. ANGIO IMPU. 5F MPB2 H749163911462",
+      "ref": "H749163911462",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097357",
+      "desc": "CATH. ANGIO IMPU. 5F SON1 H749163911512",
+      "ref": "H749163911512",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097358",
+      "desc": "CATH. ANGIO IMPU. 5F SON2 H749163911522",
+      "ref": "H749163911522",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097359",
+      "desc": "CATH. ANGIO IMPU. 5F SON2 H749163911532",
+      "ref": "H749163911532",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097360",
+      "desc": "CATH. ANGIO IMPU. 5F SON1 H749163911612",
+      "ref": "H749163911612",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097361",
+      "desc": "CATH. ANGIO IMPU. 5F CAS1 H749163911712",
+      "ref": "H749163911712",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097362",
+      "desc": "CATH. ANGIO IMPU. 5F CAS2 H749163911732",
+      "ref": "H749163911732",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097363",
+      "desc": "CATH. ANGIO IMPU.5F RADIAL H749163911742",
+      "ref": "H749163911742",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097364",
+      "desc": "CATH. ANGIO IMPU.5F KIMNY H749163911802",
+      "ref": "H749163911802",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097365",
+      "desc": "CATH. ANGIO IMPU. 5F RCB H749163911902",
+      "ref": "H749163911902",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097366",
+      "desc": "CATH. ANGIO IMPU. 5F LCB H749163911952",
+      "ref": "H749163911952",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097367",
+      "desc": "CATH. ANGIO IMPU. 5F IM H749163912012",
+      "ref": "H749163912012",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097368",
+      "desc": "CATH. ANGIO IMPU. 5F IMT H749163912022",
+      "ref": "H749163912022",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097369",
+      "desc": "CATH. ANGIO IMPU. 5F IMC H749163912032",
+      "ref": "H749163912032",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097370",
+      "desc": "CATH. ANGIO IMPU. 5F FL3.5 H74916391212",
+      "ref": "H74916391212",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097371",
+      "desc": "CATH. ANGIO IMPU. 5F PIG H749163912152",
+      "ref": "H749163912152",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097372",
+      "desc": "CATH. ANGIO IMPU. 5F FL4 H749163912202",
+      "ref": "H749163912202",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097373",
+      "desc": "CATH. ANGIO IMPU. 5F FL4 H74916391222",
+      "ref": "H74916391222",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097374",
+      "desc": "CATH. ANGIO IMPU. 5F FR4 H749163912252",
+      "ref": "H749163912252",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097375",
+      "desc": "CATH. ANGIO IMPU. 5F FR5 H749163912302",
+      "ref": "H749163912302",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097376",
+      "desc": "CATH. ANGIO IMPU. 5F FL4.5 H74916391232",
+      "ref": "H74916391232",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097377",
+      "desc": "CATH. ANGIO IMPU. 5F FL5 H749163912352",
+      "ref": "H749163912352",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097378",
+      "desc": "CATH. ANGIO IMPU. 5F 125CM H749163912402",
+      "ref": "H749163912402",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097379",
+      "desc": "CATH. ANGIO IMPU. 5F FL3.5 H749163912412",
+      "ref": "H749163912412",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097380",
+      "desc": "CATH. ANGIO IMPU. 5F FL5 H74916391242",
+      "ref": "H74916391242",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097381",
+      "desc": "CATH. ANGIO IMPU. 5F TIG4 H749163912502",
+      "ref": "H749163912502",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097382",
+      "desc": "CATH. ANGIO IMPU.5F TIG4.5 H749163912502",
+      "ref": "H749163912512",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097383",
+      "desc": "CATH. ANGIO IMPU. 5F FL6 H74916391252",
+      "ref": "H74916391252",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097384",
+      "desc": "CATH. ANGIO IMPU.5F JIG3.5 H749163912522",
+      "ref": "H749163912522",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097385",
+      "desc": "CATH. ANGIO IMPU.5F JIG4 H749163912532",
+      "ref": "H749163912532",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097386",
+      "desc": "CATH. ANGIO IMPU.5F MULTI H749163913002",
+      "ref": "H749163913002",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097387",
+      "desc": "CATH. ANGIO IMPU.5F MULTI H749163913012",
+      "ref": "H749163913012",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097388",
+      "desc": "CATH. ANGIO IMPU.5F MULTI H749163913022",
+      "ref": "H749163913022",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097389",
+      "desc": "CATH. ANGIO IMPU. 5F PIG H74916391402",
+      "ref": "H74916391402",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097390",
+      "desc": "CATH. ANGIO IMPU. 5F PIG H74916391412",
+      "ref": "H74916391412",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097391",
+      "desc": "CATH. ANGIO IMPU. 5F PIG H74916391422",
+      "ref": "H74916391422",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097392",
+      "desc": "CATH. ANGIO IMPU. 5F PIG H74916391432",
+      "ref": "H74916391432",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097393",
+      "desc": "CATH. ANGIO IMPU. 5F AR1 H74916391842",
+      "ref": "H74916391842",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11097394",
+      "desc": "CATH. ANGIO IMPU. 5F AR2 H74916391862",
+      "ref": "H74916391862",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11100058",
+      "desc": "CATH. ANGIO IMPU. 5F FR5 H74916391031",
+      "ref": "H74916391031",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11100059",
+      "desc": "CATH. ANGIO IMPU. 5F IM  H749163912011",
+      "ref": "H749163912011",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11100060",
+      "desc": "CATH. ANGIO IMPU. 5F 125CM H749163912401",
+      "ref": "H749163912401",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11100069",
+      "desc": "CATH. ANGIO IMPU. 5F FL6  H74916391251",
+      "ref": "H74916391251",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11100071",
+      "desc": "CATH. ANGIO IMPU. 5F AR2  H74916391861",
+      "ref": "H74916391861",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11100082",
+      "desc": "CATH. IMPULSE ANGIO 5F AL2 H74916391982",
+      "ref": "H74916391982",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11103464",
+      "desc": "CATH. ANGIO IMPU. 5F FR4 H74916391021",
+      "ref": "H74916391021",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11103465",
+      "desc": "CATH. ANGIO IMPU. 5F FL3.5 H74916391211",
+      "ref": "H74916391211",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11103466",
+      "desc": "CATH. ANGIO IMPU. 5F FL4 H74916391221",
+      "ref": "H74916391221",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11103467",
+      "desc": "CATH. ANGIO IMPU. 5F FL5 H74916391241",
+      "ref": "H74916391241",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11103468",
+      "desc": "CATH. ANGIO IMPU. 5F AR1 H74916391841",
+      "ref": "H74916391841",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11103469",
+      "desc": "CATH. ANGIO IMPU. 5F AL1 H74916391961",
+      "ref": "H74916391961",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11109579",
+      "desc": "CATH. ANGIO IMPU. 5F FL6  H74916391251",
+      "ref": "H74916391251",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11110792",
+      "desc": "CATH. ANGIO IMPU. 5F IM  H749163912011",
+      "ref": "H749163912011",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11113594",
+      "desc": "CATH. ANGIO IMPU. 5F AR2  H74916391861",
+      "ref": "H74916391861",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11125100",
+      "desc": "CATH. ANGIO IMPU 5F MPA-2 125CM",
+      "ref": "H749163911221",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11125286",
+      "desc": "CATH ANGIO PIGTAIL 5F 110CM H74916391401",
+      "ref": "H74916391401",
+      "prod": "10000530",
+      "series": "IMPULSE",
+      "type": "Diagnostic"
+    }
+  ],
+  "duke": [
+    {
+      "mazor": "11023350",
+      "desc": "CAT.DIAG.CORONARY 5.2F100CM AL 1 533-540",
+      "ref": "533540",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023414",
+      "desc": "CATH. DIAG. ST .038 F5.2 533580",
+      "ref": "533580",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023415",
+      "desc": "CATH. DIAG. ST .038 125 MPA-2 533557",
+      "ref": "533557",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023441",
+      "desc": "CATHETER CORDIS JR4 F5.2 100CM 533552",
+      "ref": "533552",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046127",
+      "desc": "CAT.DIAGNOSTIC .038\" 5FR 533551",
+      "ref": "533551",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046128",
+      "desc": "CATH. DIAGNOSTIC ST .038\" 5FR 533565",
+      "ref": "533565",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046129",
+      "desc": "CATH DIAG. .038 ST 5.2FR MPA-1 533578",
+      "ref": "533578",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120488",
+      "desc": "CATHETER CORDIS JR4 F5.2 100CM 533552",
+      "ref": "533552",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120484",
+      "desc": "CATHETER CORDIS ST+JL5 F6 100CM 533622",
+      "ref": "533622",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120487",
+      "desc": "CATHETER CORDIS ST+JR5 F6 100CM 533623",
+      "ref": "533623",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120486",
+      "desc": "CATHETER CORDIS ST+JR6 F6 100CM 533625",
+      "ref": "533625",
+      "prod": "10000534",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11004043",
+      "desc": "CATH. TEMPO AQUA RBL4 5FR SRD7045",
+      "ref": "SRD7045",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11004909",
+      "desc": "ST+IM BARTORELLI-COZZI 5.2F SRD5392",
+      "ref": "SRD5392",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11013093",
+      "desc": "CATH. TEMPO AQUA 4FR. 125CMSTR. SRD6108",
+      "ref": "SRD6108",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11013094",
+      "desc": "CATH. TEMPO AQUA 4FR. 125CM SRD6667",
+      "ref": "SRD6667",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11013151",
+      "desc": "CATH. TEMPO AQUA 4FR CORDIS SRD6908",
+      "ref": "SRD6908",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023345",
+      "desc": "CATH. TEMPO AQUA IM 5FR 100CM SRD7010",
+      "ref": "SRD7010",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11028337",
+      "desc": "CATH TEMPO AQUA AL1 5F SRD7011",
+      "ref": "SRD7011",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11028365",
+      "desc": "CATH TEMPO AQUA JR4 5F SRD7009",
+      "ref": "SRD7009",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11028633",
+      "desc": "CATH TEMPO AQUA JL3.5 5F SRD7061",
+      "ref": "SRD7061",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11029653",
+      "desc": "CATH. TEMPO AQUA AL2 5FR SRD7043=SRD7082",
+      "ref": "SRD7082",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11029654",
+      "desc": "CATH. DIAGNOSTIC INF CATH .038F5 125 6SH",
+      "ref": "SRD5927",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11029850",
+      "desc": "CATH TEMPO AQUA AL2 5F SRD70820",
+      "ref": "SRD7043",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11029852",
+      "desc": "CATH. DIAGNOSTIC INF SRD5927",
+      "ref": "SRD5927",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11033973",
+      "desc": "CAT.DIAG.4FR 90CM STR.6SH PIG SRD6069",
+      "ref": "SRD6069",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11049265",
+      "desc": "INFINITY VERTEBRAL 125MMSRD6549",
+      "ref": "SRD6549",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11051177",
+      "desc": "CATH. DIAG. VERTEBRAL 125MMCORDIS SRD533",
+      "ref": "SRD5331",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11091769",
+      "desc": "CATH. PIGTAIL ST. 038 F6 125 SRD5085",
+      "ref": "SRD5085",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11093113",
+      "desc": "CATH. TEMPO AQUA JL4 5FR 0.038100CM",
+      "ref": "SRD7084",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11091023",
+      "desc": "CATHETER ANGIOGRAPHIC INF 5F SR4885 ",
+      "ref": "SR4885",
+      "prod": "10000535",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023364",
+      "desc": "CATH. GUIDING VISTA BRITETIP 5560820L",
+      "ref": "5560820L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023365",
+      "desc": "CATH. GUIDING VISTA BRITE TIP 5561680L",
+      "ref": "5561680L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023366",
+      "desc": "CATH. GUIDING VISTA BRITE TIP 5561620L",
+      "ref": "5561620L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11049870",
+      "desc": "CATH. VISTA BRITE TIP GC 5562700L",
+      "ref": "5562700L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11070661",
+      "desc": "CATH. GUIDING VISTA BRITETIP 5561900L",
+      "ref": "5561900L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11094995",
+      "desc": "CATH. GUIDE 5F .056 XB3.5 LBT 5560540L",
+      "ref": "5560540L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11094996",
+      "desc": "CATH. GUIDE 5F .056 XBLAD3.5 5560600L",
+      "ref": "5560600L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11094997",
+      "desc": "CATH. GUIDE 5F .056 JR3.5 LBT 5560800L",
+      "ref": "5560800L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11094998",
+      "desc": "CATH. GUIDE 5F .056 AR2 LBT 5561120L",
+      "ref": "5561120L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11099811",
+      "desc": "CATH GUIDE 5-FR JL3.5 5560020L",
+      "ref": "5560020L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11103445",
+      "desc": "CATH GUIDE 5-FR JL4 5560040L",
+      "ref": "5560040L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120485",
+      "desc": "CATHETER GUIDE 5F .056 XB-4 LBT 5560560L",
+      "ref": "5560560L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046512",
+      "desc": "CAT.GUI.8FR JR 4 VISTA BRITE TIP 588830",
+      "ref": "588830",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11094999",
+      "desc": "CATH. GUIDE 8F MPA1 .088\" 100CM 588842",
+      "ref": "588842",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095000",
+      "desc": "CATH. GUIDE 8F AL2 .088\" 100CM 588844",
+      "ref": "588844",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095001",
+      "desc": "CATH. GUIDE 8F XB3.5 .088\" 100CM 588882",
+      "ref": "588882",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095329",
+      "desc": "CATH. GUIDE 8F XBLAD3.5 100CM 5888100",
+      "ref": "5888100",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11103452",
+      "desc": "CATH GUIDE 8F AL3 588849",
+      "ref": "588849",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11103456",
+      "desc": "CATH GUIDE 8F IM 588817",
+      "ref": "588817",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11061708",
+      "desc": "CATH.GUI.LAUNCHER 6FR 100CM JR35 LA6JR35",
+      "ref": "67008000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023375",
+      "desc": "CATH. GUIDING CORONARY 6FR-JL5 67000800",
+      "ref": "67000800",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023376",
+      "desc": "CATH. GUIDING COR. 6FR-XB-3.0 67005200",
+      "ref": "67005200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023383",
+      "desc": "CATH. GUIDING .067 6FR AL-2 67004000",
+      "ref": "67004000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023384",
+      "desc": "CATH. GUIDING .067 6FR AL-1 67003600",
+      "ref": "67003600",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023385",
+      "desc": "CATH. GUIDING .067 6FR AL-0.75 67003400",
+      "ref": "67003400",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046193",
+      "desc": "CAT.GUIDING .067 6FR JL-4.5 L.67000600",
+      "ref": "67000600",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046194",
+      "desc": "CAT.GUIDING .067 6FR XB LAD 3.5 67005400",
+      "ref": "67005400",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11062094",
+      "desc": "CATH.GUI.067 6FR AL-3 67004200",
+      "ref": "67004200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095004",
+      "desc": "CATH. GUIDE 6F .070 JL3 100CM 67000000",
+      "ref": "67000000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095005",
+      "desc": "CATH. GUIDE 6F .070 AL1.5 100CM 67003800",
+      "ref": "67003800",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095006",
+      "desc": "CATH. GUIDE 6F .070 XB3 SH 67005300",
+      "ref": "67005300",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120491",
+      "desc": "CATH. GUIDE VISTA 6F AL 1 SH 67003700",
+      "ref": "67003700",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120525",
+      "desc": "CATH. GUIDE VISTA 6F AL .75 SH 67003500",
+      "ref": "67003500",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023378",
+      "desc": "CATH. GUIDING .067 6FR XB-4.0 67005600",
+      "ref": "67005600",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046195",
+      "desc": "CAT.GUIDING .067 6FR XB LAD 4.5 67005800",
+      "ref": "67005800",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046196",
+      "desc": "CAT.GUIDING .067 6FR XB LAD 3.5 67006000",
+      "ref": "67006000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046197",
+      "desc": "CAT.GUIDING .067 6FR XB LAD 4.0 67006200",
+      "ref": "67006200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046198",
+      "desc": "CAT.GUIDING .067 6FR XB LAD 4.5 67006400",
+      "ref": "67006400",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046199",
+      "desc": "CAT.GUIDING .XB LAD 3.0 6FR 67006600",
+      "ref": "67006600",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046201",
+      "desc": "CAT.GUIDING F.CORONARY VISTA 67011200",
+      "ref": "67011200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11061708",
+      "desc": "CATH.GUI.LAUNCHER 6FR 100CM JR35 LA6JR35",
+      "ref": "67008000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11067110",
+      "desc": "CATH.GUI.CORONARY 6FR 67008300",
+      "ref": "67008300",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095007",
+      "desc": "CATH. GUIDE 6F .070 XB 3.5 SH 67005500",
+      "ref": "67005500",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095009",
+      "desc": "CATH. GUIDE 6F .070 JR 3.5 SH 67008100",
+      "ref": "67008100",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095010",
+      "desc": "CATH. GUIDE 6F .070 AR1 100CM 67011000",
+      "ref": "67011000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11103473",
+      "desc": "CATH GUIDE 6-FR JR-3.5 67008000",
+      "ref": "67008000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120526",
+      "desc": "CATH. GUIDE VISTA 6F XB 4 SH 67005700",
+      "ref": "67005700",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11022372",
+      "desc": "GUIDING CORON.067 JL6 F6 RCB 67018200",
+      "ref": "67018200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023373",
+      "desc": "CATH.GUI.CORONARY JUDKINS 67018000",
+      "ref": "67018000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023374",
+      "desc": "CATH. GUIDING CORONARY F6 JFL 67016200",
+      "ref": "67016200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023377",
+      "desc": "CATH. GUIDING .067 6FR XBRCA 67012600",
+      "ref": "67012600",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023446",
+      "desc": "CATH GUIDING .067\" F6 MPA-1 67027000",
+      "ref": "67027000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11046203",
+      "desc": "CAT.GUIDING .067 6FR 3DRC 67013000",
+      "ref": "67013000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11066244",
+      "desc": "CATH.GUI.CORONARY JUDKINS 67018000",
+      "ref": "67018000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11066489",
+      "desc": "CATH. GUID 070 F6 100 XBRCA SH 67012700",
+      "ref": "67012700",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120489",
+      "desc": "CATH. GUIDE COR. VISTA 6F 100CM 6702780",
+      "ref": "67027800",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120493",
+      "desc": "CATH. GUIDE VISTA 6F 90CM IM 67019090",
+      "ref": "67019090",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120494",
+      "desc": "CATH. GUIDE VIS. 6F H-STICK LBT 6702780L",
+      "ref": "6702780L",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11120490",
+      "desc": "CATH. GUIDE VISTA 6F H-STICK SH 67027900",
+      "ref": "67027900",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11012758",
+      "desc": "CATH GUIDING CORONARY 77803600",
+      "ref": "77803600",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11012761",
+      "desc": "CATH GUIDING VIST 77803400",
+      "ref": "77803400",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11060782",
+      "desc": "CATH.GUI.CORONARY EXTRA 77805400",
+      "ref": "77805400",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11091025",
+      "desc": "CATH. GUIDING VISTA .078 7FRAL-377804200",
+      "ref": "77804200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095011",
+      "desc": "CATH. GUIDE 7F JL3 .070\" 100CM 77800000",
+      "ref": "77800000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095012",
+      "desc": "CATH. GUIDE 7F JL3.5 .078 100CM 77800200",
+      "ref": "77800200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095013",
+      "desc": "CATH. GUIDE 7F JL4 .078 100CM 77800400",
+      "ref": "77800400",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095014",
+      "desc": "CATH. GUIDE 7F AL2 .078 100CM 77804000",
+      "ref": "77804000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095015",
+      "desc": "CATH. GUIDE 7F XB3 .078 100CM 77805200",
+      "ref": "77805200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095016",
+      "desc": "CATH. GUIDE 7F .078 XB4 100CM 77805600",
+      "ref": "77805600",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095017",
+      "desc": "CATH. GUIDE 7F XBLAD3.5 .078 77806000",
+      "ref": "77806000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095018",
+      "desc": "CATH. GUIDE 7F XBLAD4 .078 77806200",
+      "ref": "77806200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095019",
+      "desc": "CATH. GUIDE 7F JR3.5 .078 100CM 77808000",
+      "ref": "77808000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095020",
+      "desc": "CATH. GUIDE 7F JR4 .078 100CM 77808200",
+      "ref": "77808200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11091026",
+      "desc": "CATH. GUIDING VISTA MPA1.0 7F77827000",
+      "ref": "77827000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095021",
+      "desc": "CATH. GUIDE 7F AR1 .078 100CM 77811000",
+      "ref": "77811000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11095022",
+      "desc": "CATH. GUIDE 7F AR2 .078 100CM 77811200",
+      "ref": "77811200",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11099827",
+      "desc": "CATH GUIDE 7FR IM 77819000",
+      "ref": "77819000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11099828",
+      "desc": "CATH GUIDE 7FR MPA 77827000",
+      "ref": "77827000",
+      "prod": "10000544",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023357",
+      "desc": "CATH. LEFT CORONARY AMPLATZ SM7328",
+      "ref": "SM7328",
+      "prod": "10000545",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11029652",
+      "desc": "CATH. GUIDING JR4 6FR 125CM SM7436",
+      "ref": "SM7436",
+      "prod": "10000545",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11029851",
+      "desc": "CATH. GUIDING JR4 6FR 125CM SM7436",
+      "ref": "SM7436",
+      "prod": "10000545",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11050964",
+      "desc": "CATH. GUIDING 5F WILLIAMSSM7599",
+      "ref": "SM7599",
+      "prod": "10000545",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11080322",
+      "desc": "CATH CORONARY AMPLATZ TECHNIQUE L SM73",
+      "ref": "SM7331",
+      "prod": "10000545",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11091019",
+      "desc": "CATH. GC LBT 5F .056 100CM AR1 SM7333",
+      "ref": "SM7333",
+      "prod": "10000545",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    },
+    {
+      "mazor": "11023351",
+      "desc": "CATH. RIGHT CORONARY JR5 LBT SM-7330 ",
+      "ref": "SM-7330",
+      "prod": "10000545",
+      "series": "Cordis",
+      "type": "Diagnostic/Guiding"
+    }
+  ],
+  "gad": [
+    {
+      "mazor": "11120674",
+      "desc": "CATH. GUIDING PTCA 6FR AL 0.75X2.08MM",
+      "ref": "GC-P6AL070N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120675",
+      "desc": "CATH. GUIDING PTCA 6FR AL 1X2.08MM",
+      "ref": "GC-P6AL100N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120676",
+      "desc": "CATH. GUIDING PTCA 6FR AL 1.5X2.08MM",
+      "ref": "GC-P6AL150N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120677",
+      "desc": "CATH. GUIDING PTCA 6FR AL 2X2.08MM",
+      "ref": "GC-P6AL200N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120678",
+      "desc": "CATH. GUIDING PTCA 6FR AL 3X2.08MM",
+      "ref": "GC-P6AL300N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120679",
+      "desc": "CATH. GUIDING PTCA 6FR AR 1X2.08MM",
+      "ref": "GC-P6AR100N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120680",
+      "desc": "CATH. GUIDING PTCA 6FR AR 2X2.08MM",
+      "ref": "GC-P6AR200N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120681",
+      "desc": "CATH. GUIDING PTCA BYPASS 6FR 2.08MM",
+      "ref": "GC-P6BP010N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120682",
+      "desc": "CATH. GUIDING PTCA BYPASS GC-P6BP020N",
+      "ref": "GC-P6BP020N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120683",
+      "desc": "CATH. GUIDING PTCA EBU 6FR 3.25X2.08MM",
+      "ref": "GC-P6BP020N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120684",
+      "desc": "CATH. GUIDING PTCA EBU 6FR 4X2.08MM",
+      "ref": "GC-P6EB400N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120685",
+      "desc": "CATH. GUIDING PTCA HOCKEYSTICK 6FR",
+      "ref": "GC-P6EB400N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120686",
+      "desc": "CATH. GUIDING PTCA IMA 6FR 2.08MM",
+      "ref": "GC-P6IM000N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120687",
+      "desc": "CATH. GUIDING PTCA JL 6FR 3X2.08MM",
+      "ref": "GC-P6JL300N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120688",
+      "desc": "CATH. GUIDING PTCA JL 6FR 3.5X2.08MM",
+      "ref": "GC-P6JL350N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120689",
+      "desc": "CATH. GUIDING PTCA JL 6FR 4X2.08MM",
+      "ref": "GC-P6JL400N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120690",
+      "desc": "CATH. GUIDING PTCA JL 6FR 4.5X2.08MM",
+      "ref": "GC-P6JL450N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120691",
+      "desc": "CATH. GUIDING PTCA JL 6FR 5X2.08MM",
+      "ref": "GC-P6JL500N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120692",
+      "desc": "CATH. GUIDING PTCA JR 6FR 3X2.08MM",
+      "ref": "GC-P6JR300N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120693",
+      "desc": "CATH. GUIDING PTCA JR 6FR 3.5X2.08MM",
+      "ref": "GC-P6JR350N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120694",
+      "desc": "CATH. GUIDING PTCA JR 6FR 4X2.08MM",
+      "ref": "GC-P6JR400N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120697",
+      "desc": "CATH. GUIDING PTCA JR 6FR 4.5X2.08MM",
+      "ref": "GC-P6JR450N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120698",
+      "desc": "CATH. GUIDING PTCA JR 6FR 5X2.08MM",
+      "ref": "GC-P6JR500N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120699",
+      "desc": "CATH. GUID. PTCA ULTIPURPOSE 125CM SHAFT",
+      "ref": "GC-P6MP102N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120700",
+      "desc": "CATH. GUIDING PTCA TIG 6FR 3.5X2.08MM",
+      "ref": "GC-P6TR350N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120702",
+      "desc": "CATH. GUIDING PTCA AL 7FR 0.75X2.37MM",
+      "ref": "GC-P7AL070N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120703",
+      "desc": "CATH. GUIDING PTCA AL 7FR 1X2.37MM",
+      "ref": "8GCP7AL100N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120704",
+      "desc": "CATH. GUIDING PTCA AR 7FR 1X2.37MM",
+      "ref": "GC-P7AR100N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120705",
+      "desc": "CATH. GUIDING PTCA AR 7FR 2X2.37MM",
+      "ref": "GC-P7AR200N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120706",
+      "desc": "CATH. GUIDING PTCA EBU 7FR 3X2.37MM",
+      "ref": "GC-P7EB300N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120707",
+      "desc": "CATH. GUIDING PTCA EBU 7FR 3.5X2.37MM",
+      "ref": "GC-P7EB350N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120708",
+      "desc": "CATH. GUIDING PTCA EBU 7FR 4X2.37MM",
+      "ref": "GC-P7EB400N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120709",
+      "desc": "CATH. GUIDING PTCA JL 7FR 3.5X2.37MM",
+      "ref": "GC-P7JL350N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120710",
+      "desc": "CATH. GUIDING PTCA JL 7FR 4X2.37MM",
+      "ref": "GC-P7JL400N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120711",
+      "desc": "CATH. GUIDING PTCA JR 7FR 3.5X2.37MM",
+      "ref": "GC-P7JR350N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120712",
+      "desc": "CATH. GUIDING PTCA JR 7FR 4X2.37MM",
+      "ref": "GC-P7JR400N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120713",
+      "desc": "CATH. GUIDING PTCA TIG 6FR 4X2.08MM",
+      "ref": "GC-P6TR400N",
+      "prod": "10000546",
+      "price": "58$",
+      "series": "Terumo",
+      "type": "Guiding"
+    }
+  ],
+  "medtronic": [
+    {
+      "mazor": "11033874",
+      "desc": "CATH.DIAG.DXT.038''5F.110CM DXT5PIGSTA",
+      "ref": "DXT5PIGSTA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11059311",
+      "desc": "CATH.DIAG.DXTERITY AL20 DXT5AL20",
+      "ref": "DXT5AL20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11060037",
+      "desc": "CAT.DIAG.DXTERITY 6F.100CM JR40 DXT6JR40",
+      "ref": "DXT6JR40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11061630",
+      "desc": "CAT.DIAG.DXTERITY 6F.100CM JL40 DXT6JL40",
+      "ref": "DXT6JL40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11062209",
+      "desc": "CAT.DIAG.DXTERITY 5F.100CM AL30 DXT5AL30",
+      "ref": "DXT5AL30",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11062651",
+      "desc": "CATH.DIAG.DXTERITY 6F.110CM DXT6PIGSTA",
+      "ref": "DXT6PIGSTA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11062759",
+      "desc": "CATH. DIAG .038 F5 100 JL-4 T DXT5JL40",
+      "ref": "DXT5JL40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11063316",
+      "desc": "DEXTILE DXT 15/10CM LEFT1 DXT1510AL",
+      "ref": "DXT1510AL",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11063976",
+      "desc": "DEXTILE DXT 15/10CM RIGHT1 DXT1510AR",
+      "ref": "DXT1510AR",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11064301",
+      "desc": "CATH.DIAG.AMPLATZ.038'' F5 DXT5AR20",
+      "ref": "DXT5AR20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11064440",
+      "desc": "CATH.DIAG.DXTERITY AR10 DXT6AR10",
+      "ref": "DXT6AR10",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11065113",
+      "desc": "CATH.DIAG.DXTERITY AL20 DXT6AL20",
+      "ref": "DXT6AL20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11065242",
+      "desc": "CATH.DIAG.DXTERITY AR20 DXT6AR20",
+      "ref": "DXT6AR20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11074497",
+      "desc": "CATH DIAG DXTER. 5FX100CM JL35 DXT5JL35",
+      "ref": "DXT5JL35",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11074982",
+      "desc": "CATH DIAG DXTERITY5FX100CM JR40 DXT5JR40",
+      "ref": "DXT5JR40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084005",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JL45",
+      "ref": "DXT5JL45",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084006",
+      "desc": "CATH. DXTERITY 5F MPA 100CM DXT5MPA",
+      "ref": "DXT5MPA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084007",
+      "desc": "CATH. DXTERITY 5F 3DRC 100CM DXT53DRC",
+      "ref": "DXT53DRC",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084008",
+      "desc": "CATH. DXTERITY 6F AL1.0 100CM DXT6AL10",
+      "ref": "DXT6AL10",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096315",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5AR10",
+      "ref": "DXT5AR10",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096316",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5PIG55A",
+      "ref": "DXT5PIG55A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096317",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5LCB",
+      "ref": "DXT5LCB",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096318",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JR35",
+      "ref": "DXT5JR35",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096319",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5PIGSTX",
+      "ref": "DXT5PIGSTX",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096320",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JL50",
+      "ref": "DXT5JL50",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096321",
+      "desc": "CATH. DXTERITY 6F 100CM DXT6PIG55A",
+      "ref": "DXT6PIG55A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096322",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5PIG45A",
+      "ref": "DXT5PIG45A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096323",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5MPBA",
+      "ref": "DXT5MPBA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096324",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5IMA",
+      "ref": "DXT5IMA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096325",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JR50",
+      "ref": "DXT5JR50",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096326",
+      "desc": "CATH. DXTERITY 6F 100CM DXT6JL35",
+      "ref": "DXT6JL35",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096327",
+      "desc": "CATH. DXTERITY 6F 100CM DXT6PIG45A",
+      "ref": "DXT6PIG45A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096328",
+      "desc": "CATH. DXTERITY 6F 100CM DXT6PIGSTX",
+      "ref": "DXT6PIGSTX",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11105703",
+      "desc": "MESH ANATOMICAL LEFT M 13X9CM DXT1309AL",
+      "ref": "DXT1309AL",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11105704",
+      "desc": "MESH ANATOMICAL RIGHT M 13X9CM DXT1309AR",
+      "ref": "DXT1309AR",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11033874",
+      "desc": "CATH.DIAG.DXT.038''5F.110CM DXT5PIGSTA",
+      "ref": "DXT5PIGSTA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11059311",
+      "desc": "CATH.DIAG.DXTERITY AL20 DXT5AL20",
+      "ref": "DXT5AL20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11062209",
+      "desc": "CAT.DIAG.DXTERITY 5F.100CM AL30 DXT5AL30",
+      "ref": "DXT5AL30",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11074982",
+      "desc": "CATH DIAG DXTERITY5FX100CM JR40 DXT5JR40",
+      "ref": "DXT5JR40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084006",
+      "desc": "CATH. DXTERITY 5F MPA 100CM DXT5MPA",
+      "ref": "DXT5MPA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084007",
+      "desc": "CATH. DXTERITY 5F 3DRC 100CM DXT53DRC",
+      "ref": "DXT53DRC",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096315",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5AR10",
+      "ref": "DXT5AR10",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096316",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5PIG55A",
+      "ref": "DXT5PIG55A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096317",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5LCB",
+      "ref": "DXT5LCB",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096318",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JR35",
+      "ref": "DXT5JR35",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096319",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5PIGSTX",
+      "ref": "DXT5PIGSTX",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096320",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JL50",
+      "ref": "DXT5JL50",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11060037",
+      "desc": "CAT.DIAG.DXTERITY 6F.100CM JR40 DXT6JR40",
+      "ref": "DXT6JR40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11062759",
+      "desc": "CATH. DIAG .038 F5 100 JL-4 T DXT5JL40",
+      "ref": "DXT5JL40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096322",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5PIG45A",
+      "ref": "DXT5PIG45A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096323",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5MPBA",
+      "ref": "DXT5MPBA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11061630",
+      "desc": "CAT.DIAG.DXTERITY 6F.100CM JL40 DXT6JL40",
+      "ref": "DXT6JL40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11064301",
+      "desc": "CATH.DIAG.AMPLATZ.038'' F5 DXT5AR20",
+      "ref": "DXT5AR20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11065242",
+      "desc": "CATH.DIAG.DXTERITY AR20 DXT6AR20",
+      "ref": "DXT6AR20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11074497",
+      "desc": "CATH DIAG DXTER. 5FX100CM JL35 DXT5JL35",
+      "ref": "DXT5JL35",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084005",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JL45",
+      "ref": "DXT5JL45",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096324",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5IMA",
+      "ref": "DXT5IMA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096325",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JR50",
+      "ref": "DXT5JR50",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11062651",
+      "desc": "CATH.DIAG.DXTERITY 6F.110CM DXT6PIGSTA",
+      "ref": "DXT6PIGSTA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11064440",
+      "desc": "CATH.DIAG.DXTERITY AR10 DXT6AR10",
+      "ref": "DXT6AR10",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11065113",
+      "desc": "CATH.DIAG.DXTERITY AL20 DXT6AL20",
+      "ref": "DXT6AL20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084008",
+      "desc": "CATH. DXTERITY 6F AL1.0 100CM DXT6AL10",
+      "ref": "DXT6AL10",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096326",
+      "desc": "CATH. DXTERITY 6F 100CM DXT6JL35",
+      "ref": "DXT6JL35",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096328",
+      "desc": "CATH. DXTERITY 6F 100CM DXT6PIGSTX",
+      "ref": "DXT6PIGSTX",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11062651",
+      "desc": "CATH.DIAG.DXTERITY 6F.110CM DXT6PIGSTA",
+      "ref": "DXT6PIGSTA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096321",
+      "desc": "CATH. DXTERITY 6F 100CM DXT6PIG55A",
+      "ref": "DXT6PIG55A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096327",
+      "desc": "CATH. DXTERITY 6F 100CM DXT6PIG45A",
+      "ref": "DXT6PIG45A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11060037",
+      "desc": "CAT.DIAG.DXTERITY 6F.100CM JR40 DXT6JR40",
+      "ref": "DXT6JR40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11061630",
+      "desc": "CAT.DIAG.DXTERITY 6F.100CM JL40 DXT6JL40",
+      "ref": "DXT6JL40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096326",
+      "desc": "CATH. DXTERITY 6F 100CM DXT6JL35",
+      "ref": "DXT6JL35",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11065242",
+      "desc": "CATH.DIAG.DXTERITY AR20 DXT6AR20",
+      "ref": "DXT6AR20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11064440",
+      "desc": "CATH.DIAG.DXTERITY AR10 DXT6AR10",
+      "ref": "DXT6AR10",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11065113",
+      "desc": "CATH.DIAG.DXTERITY AL20 DXT6AL20",
+      "ref": "DXT6AL20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084008",
+      "desc": "CATH. DXTERITY 6F AL1.0 100CM DXT6AL10",
+      "ref": "DXT6AL10",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096319",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5PIGSTX",
+      "ref": "DXT5PIGSTX",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096316",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5PIG55A",
+      "ref": "DXT5PIG55A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096322",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5PIG45A",
+      "ref": "DXT5PIG45A",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096323",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5MPBA",
+      "ref": "DXT5MPBA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084006",
+      "desc": "CATH. DXTERITY 5F MPA 100CM DXT5MPA",
+      "ref": "DXT5MPA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096317",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5LCB",
+      "ref": "DXT5LCB",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096325",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JR50",
+      "ref": "DXT5JR50",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11074982",
+      "desc": "CATH DIAG DXTERITY5FX100CM JR40 DXT5JR40",
+      "ref": "DXT5JR40",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096318",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JR35",
+      "ref": "DXT5JR35",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096320",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JL50",
+      "ref": "DXT5JL50",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084005",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5JL45",
+      "ref": "DXT5JL45",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11074497",
+      "desc": "CATH DIAG DXTER. 5FX100CM JL35 DXT5JL35",
+      "ref": "DXT5JL35",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096324",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5IMA",
+      "ref": "DXT5IMA",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096315",
+      "desc": "CATH. DXTERITY 5F 100CM DXT5AR10",
+      "ref": "DXT5AR10",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11062209",
+      "desc": "CAT.DIAG.DXTERITY 5F.100CM AL30 DXT5AL30",
+      "ref": "DXT5AL30",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11059311",
+      "desc": "CATH.DIAG.DXTERITY AL20 DXT5AL20",
+      "ref": "DXT5AL20",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11084007",
+      "desc": "CATH. DXTERITY 5F 3DRC 100CM DXT53DRC",
+      "ref": "DXT53DRC",
+      "prod": "10000536",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11058864",
+      "desc": "CATH. DIAG. DXTERITY 5F 100CM U5TRAP40",
+      "ref": "U5TRAP40",
+      "prod": "10000537",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11061032",
+      "desc": "CATH. DIAG. DXTERITY 5F 100CM U5TRAP35",
+      "ref": "U5TRAP35",
+      "prod": "10000537",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096329",
+      "desc": "CATH. DXT 5F 100CM T U5TRACT",
+      "ref": "U5TRACT",
+      "prod": "10000537",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096330",
+      "desc": "CATH. DXT 5F 1 U5TRAP40SH",
+      "ref": "U5TRAP40SH",
+      "prod": "10000537",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096331",
+      "desc": "CATH. DXT 5F 100CM U5TRAN35",
+      "ref": "U5TRAN35",
+      "prod": "10000537",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096332",
+      "desc": "CATH. DXT 5F 1 U5TRAN35SH",
+      "ref": "U5TRAN35SH",
+      "prod": "10000537",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096333",
+      "desc": "CATH. DXT 5F 100CM T U5TRACK",
+      "ref": "U5TRACK",
+      "prod": "10000537",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11096334",
+      "desc": "CATH. DXT 5F 100CM U5TRAN40",
+      "ref": "U5TRAN40",
+      "prod": "10000537",
+      "series": "DXTERITY",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "11012763",
+      "desc": "LA5AR10",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11012768",
+      "desc": "LA5AL10",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028175",
+      "desc": "LA5AL75",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028323",
+      "desc": "LA5AL10",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028332",
+      "desc": "LA5EBU35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028334",
+      "desc": "LA5EBU40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028570",
+      "desc": "A5EBU375",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028573",
+      "desc": "LA5EBU30",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028577",
+      "desc": "LA5AL20",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028603",
+      "desc": "LA5AR20",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11058401",
+      "desc": "LA5HSI",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096191",
+      "desc": "LA5HSII",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096192",
+      "desc": "LA5IMA",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11012764",
+      "desc": "LA5JR40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11029662",
+      "desc": "LA5JL35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11029663",
+      "desc": "LA5JL40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11037237",
+      "desc": "LA5JCR40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11065226",
+      "desc": "LA5JL45",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11065990",
+      "desc": "LA5JL30",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11066050",
+      "desc": "LA5JR35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11066973",
+      "desc": "LA5JR50",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096193",
+      "desc": "LA5JL50",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096194",
+      "desc": "LA5JR30",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096195",
+      "desc": "LA5JR45",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096196",
+      "desc": "LA5LCB",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11012765",
+      "desc": "LA63DRC",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11026938",
+      "desc": "LA5MP1",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11057504",
+      "desc": "LA5RBU35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11066204",
+      "desc": "LA5RBU40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11066278",
+      "desc": "LA5MB2",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096197",
+      "desc": "LA5MB1",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096198",
+      "desc": "LA5MPST",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096199",
+      "desc": "LA5MRADIAL",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096200",
+      "desc": "LA5RCB",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120497",
+      "desc": "LA5SAL75",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028569",
+      "desc": "LA6AL10",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11029661",
+      "desc": "LA6AL20",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11058154",
+      "desc": "LA6AL20D",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11062628",
+      "desc": "LA6AL10D",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11064699",
+      "desc": "LA63DRCSH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096201",
+      "desc": "LA6AL10SH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096202",
+      "desc": "LA6AL15",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096203",
+      "desc": "LA6AL20SH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096204",
+      "desc": "LA6AL30",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028166",
+      "desc": "LA6AR20",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028572",
+      "desc": "LA6AL75",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028605",
+      "desc": "LA6AR10",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11059353",
+      "desc": "LA6AL75D",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11066249",
+      "desc": "LA6AR10SH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096205",
+      "desc": "LA6AL75SH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11059067",
+      "desc": "LA7AR10",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11060180",
+      "desc": "LA7EBU35SH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11060965",
+      "desc": "LA7EBU35D",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11061151",
+      "desc": "LA7AR20",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11062560",
+      "desc": "LA7EBU40D",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11062664",
+      "desc": "LA7EBU40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11064100",
+      "desc": "LA7EBU30D",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11064362",
+      "desc": "LA7AR20D",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11066084",
+      "desc": "LA7EBU30",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096297",
+      "desc": "LA7AR10SH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096298",
+      "desc": "LA7EBU30SH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096299",
+      "desc": "LA7EBU35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096300",
+      "desc": "LA7EBU375",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096301",
+      "desc": "LA7EBU40SH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096302",
+      "desc": "LA7EBU45",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096303",
+      "desc": "LA7HSI",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096304",
+      "desc": "LA7HSII",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096305",
+      "desc": "LA7IMA",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11057184",
+      "desc": "LA8EBU40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11057356",
+      "desc": "LA8JL40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11057503",
+      "desc": "LA7IMAD",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11058136",
+      "desc": "LA8AL75",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11058664",
+      "desc": "LA8AL20",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11060246",
+      "desc": "LA8EBU30",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11060548",
+      "desc": "LA7JL35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11060952",
+      "desc": "LA8EBU35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11061320",
+      "desc": "LA7JL50",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11062581",
+      "desc": "LA7JR40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11062718",
+      "desc": "LA7JL40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11063445",
+      "desc": "LA8AL10",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11064669",
+      "desc": "LA7RBU35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11064677",
+      "desc": "LA7JR40SH",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11066329",
+      "desc": "LA7JL60",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11066403",
+      "desc": "LA8JL35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11067118",
+      "desc": "LA8JL45",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096306",
+      "desc": "LA7JL30",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096307",
+      "desc": "LA7JR35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096308",
+      "desc": "LA7LCB",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096309",
+      "desc": "LA7MB1",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096310",
+      "desc": "LA7RCB",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096311",
+      "desc": "LA8JR40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11096312",
+      "desc": "LA8MB1",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11120498",
+      "desc": "LA7SAL75",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028332",
+      "desc": "LA5EBU35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11004704",
+      "desc": "LA6EBU35",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11028334",
+      "desc": "LA5EBU40",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    },
+    {
+      "mazor": "11110500",
+      "desc": "LA6EBU325",
+      "ref": "",
+      "prod": "10000550",
+      "series": "LAUNCHER",
+      "type": "Guiding"
+    }
+  ],
+  "getter": [
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-MPA",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HN5.0-38-100-P-10S-PIG",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-125-P-NS-VERT",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-SIM2",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-SIM1",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-H1",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNB5.0-38-125-P-NS-VTK",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-SIM3",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-C1",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-C2",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-DAV",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-KMP",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-MPA",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-SIM3",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-VERT",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-100-P-NS-WNBG",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-125-P-NS-MPA",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    },
+    {
+      "mazor": "",
+      "desc": "ANGIOGRAPHIC CATHETERS ",
+      "ref": "HNBR5.0-38-125-P-NS-VTK",
+      "prod": "10000542",
+      "price": "33",
+      "series": "Cook HN",
+      "type": "Diagnostic"
+    }
+  ]
+}
